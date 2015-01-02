@@ -81,6 +81,26 @@ input[type="button"]:active {
   	-webkit-animation: illustrator 2s ease;
 }
 
+#portfolio h1 {
+	font: 30px/24px 'opensans-bold', sans-serif;
+	letter-spacing: 1px;
+	border: 3px solid #11ABB0;
+	padding: 2px;
+	text-align: center;
+	border-radius: 4px;
+	text-transform: none !important;
+}
+
+.nine > h1 {
+	font: 30px/24px 'opensans-bold', sans-serif !important;
+	text-transform: none !important;
+	letter-spacing: 1px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	border-bottom: 3px solid #11ABB0 !important;
+	padding-bottom: 6px !important;
+	text-align: left !important;
+}
 /*#nav-wrap ul#nav {
 	height: auto;
 	display: none;
