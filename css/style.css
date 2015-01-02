@@ -14,7 +14,7 @@ header .banner-text h1 {
 	font: 90px/1.1em 'opensans-bold', sans-serif;
 	color: white;
 	letter-spacing: -1px;
-	margin-bottom: 36px;
+	margin-bottom: 0px;
 	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #1d9d74;
@@ -73,6 +73,12 @@ input[type="reset"]:active,
 input[type="button"]:active {
    background: #1d9d74;
    color: #fff;
+}
+
+.laravel {
+  	width: 55%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
 }
 
 /*#nav-wrap ul#nav {
