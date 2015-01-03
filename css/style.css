@@ -101,13 +101,24 @@ input[type="button"]:active {
 	padding-bottom: 6px !important;
 	text-align: left !important;
 }
-/*#nav-wrap ul#nav {
-	height: auto;
-	display: none;
-	clear: both;
-	width: auto;
-	float: right;
-	position: relative;
-	top: 12px;
-	right: 0;
-}*/
+
+#portfolio h2 {
+	font: 90px/1.1em 'opensans-bold', sans-serif !important;
+	color: white !important;
+	letter-spacing: -1px !important;
+	margin-bottom: 40px !important;
+	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;
+	text-align: center;
+	-webkit-text-stroke-width: 1px !important;
+	-webkit-text-stroke-color: #1d9d74 !important;
+	padding-bottom: 30px;
+	-moz-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
+}
+#contact {
+	background: #191919;
+	padding-top: 160px;
+	padding-bottom: 102px;
+	color: #636363;
+}
