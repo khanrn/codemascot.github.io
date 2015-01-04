@@ -16,12 +16,13 @@ header {
 header .banner-text h1 {
 	font: 90px/1.1em 'opensans-bold', sans-serif;
 	color: white;
-	letter-spacing: -1px;
+	letter-spacing: 6px;
 	margin-bottom: 0px;
 	margin-top: 30%;
-	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #1d9d74;
+	text-shadow: -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, 7px 5px 0px #1D9D74;
+	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);*/
+	/*-webkit-text-stroke-width: 1px;*/
+	/*-webkit-text-stroke-color: #1d9d74;*/
 }
 
 header .social {
@@ -39,9 +40,10 @@ header .social {
 	color: white;
 	letter-spacing: -1px;
 	margin-bottom: 36px;
-	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #1d9d74;
+	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);*/
+	/*-webkit-text-stroke-width: 1px;*/
+	/*-webkit-text-stroke-color: #1d9d74;*/
+	text-shadow: -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, 7px 5px 0px #1D9D74;
 }
 
 #about {
@@ -115,27 +117,30 @@ input[type="button"]:active {
 #portfolio h2 {
 	font: 90px/1.1em 'opensans-bold', sans-serif !important;
 	color: white !important;
-	letter-spacing: -1px !important;
+	letter-spacing: 25px !important;
 	margin-bottom: 40px !important;
-	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;
+	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;*/
 	text-align: center;
-	-webkit-text-stroke-width: 1px !important;
-	-webkit-text-stroke-color: #1d9d74 !important;
+	/*-webkit-text-stroke-width: 1px !important;*/
+	/*-webkit-text-stroke-color: #1d9d74 !important;*/
+	text-shadow: -2px -2px 0 #1d9d74, 4px 2px 0 #1d9d74, 1px 2px 0 #1d9d74, -2px -2px 0 #1d9d74, 2px 3px 0px #1D9D74;
 	padding-bottom: 30px;
 	-moz-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
 }
 
+
 #resume h2 {
 	font: 90px/1.1em 'opensans-bold', sans-serif !important;
 	color: white !important;
-	letter-spacing: -1px !important;
+	letter-spacing: 25px !important;
 	margin-bottom: 40px !important;
-	text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;
+	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;*/
 	text-align: center;
-	-webkit-text-stroke-width: 1px !important;
-	-webkit-text-stroke-color: #1d9d74 !important;
+	/*-webkit-text-stroke-width: 1px !important;*/
+	/*-webkit-text-stroke-color: #1d9d74 !important;*/
+	text-shadow: -2px -2px 0 #1d9d74, 4px 2px 0 #1d9d74, 1px 2px 0 #1d9d74, -2px -2px 0 #1d9d74, 2px 3px 0px #1D9D74;
 	padding-bottom: 30px;
 	-moz-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
@@ -154,10 +159,10 @@ input[type="button"]:active {
 }
 
 #contact {
-	background: #191919;
-	padding-top: 100px;
-	padding-bottom: 70px;
-	color: #636363;
+    background: none repeat scroll 0% 0% #191919;
+    padding-top: 102px;
+    padding-bottom: 80px;
+    color: #636363;
 }
 
 .popup-modal .description-box p {
