@@ -279,6 +279,18 @@ input[type="button"]:active {
    color: #2B2B2B;
 }
 
+#call-to-action p {
+	color: #636363;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#call-to-action {
+	background: #212121;
+	padding-top: 65px;
+	padding-bottom: 25px;
+}
+
 @media only screen and (max-width: 767px) {
 	#portfolio h2 {
 		font: 60px/1.1em 'opensans-bold', sans-serif !important;
