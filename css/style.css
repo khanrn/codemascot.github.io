@@ -37,20 +37,43 @@ header .social {
 
 #about h2 {
 	font: 60px/1.1em 'opensans-bold', sans-serif;
-	color: white;
-	letter-spacing: -1px;
-	margin-bottom: 36px;
-	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);*/
-	/*-webkit-text-stroke-width: 1px;*/
-	/*-webkit-text-stroke-color: #1d9d74;*/
-	text-shadow: -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, -2px -2px 0 #1d9d74, 7px 5px 0px #1D9D74;
+	color: white !important;  
+	letter-spacing: 15px !important;  
+	margin-bottom: 40px !important;  
+	/*text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;*/  
+	text-align: center;  
+	/*-webkit-text-stroke-width: 1px !important;*/  
+	/*-webkit-text-stroke-color: #1d9d74 !important;*/  
+	text-shadow: -2px -2px 0 #1d9d74, 4px 2px 0 #1d9d74, 1px 2px 0 #1d9d74, -2px -2px 0 #1d9d74, 2px 3px 0px #1D9D74;  
+	padding-bottom: 30px;  
+	-moz-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);     
+	-webkit-box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);     
+	box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
 }
 
 #about {
-	background: #EAEAEA;
+	background: #D7D7D7;
 	padding-top: 96px;
 	padding-bottom: 66px;
 	overflow: hidden;
+}
+
+#about p {
+   line-height: 30px;
+   color: #2F2F2F;
+}
+
+#about .profile-pic {
+   position: relative;
+   width: 220px;
+   height: 220px;
+   border-radius: 100%;
+}
+
+#about .download .button {
+   margin-top: 6px;
+   background: #444;
+   float: right;
 }
 
 .pagination .page-numbers:hover {
@@ -326,7 +349,21 @@ input[type="button"]:active {
 		/*box-shadow: none !important;*/
 		box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
 	}
-
+	#about h2 {
+		font: 60px/1.1em 'opensans-bold', sans-serif !important;
+		color: white !important;
+		letter-spacing: -1px !important;
+		margin-bottom: 40px !important;
+		text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15)!important;
+		text-align: center;
+		-webkit-text-stroke-width: 1px !important;
+		-webkit-text-stroke-color: #1d9d74 !important;
+		padding-bottom: 30px;
+		/*-moz-box-shadow: none !important;*/
+		/*-webkit-box-shadow: none !important;*/
+		/*box-shadow: none !important;*/
+		box-shadow: 4px 4px 0px #1d9d74, 9px 9px 0px rgba(0, 0, 0, 0.15);
+	}
 	#nav-wrap ul#nav {
 		height: auto;
 		display: none;
