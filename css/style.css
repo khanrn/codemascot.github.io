@@ -59,8 +59,10 @@ header .social {
 }
 
 #about p {
-   line-height: 30px;
+   line-height: 25px;
    color: #2F2F2F;
+   font-family: 'Cousine';
+   font-weight: 700;
 }
 
 #about .profile-pic {
