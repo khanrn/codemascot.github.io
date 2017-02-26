@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h1>Khan Mohammad Rashedun-Naby</h1>
-                    <p class="lead">Web Application Developer with 4+ Years of experience in software industry.<br />Check those below profiles to know more about me-</p>
+                    <p class="lead">Web Application Developer with <span id="experience-year"></span>+ Years of experience in software industry.<br />Check those below profiles to know more about me-</p>
                 </div>
                 <div class="col-sm-12">
                     <div class="row">
@@ -220,5 +220,15 @@
         <script src="dist/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <script type="text/javascript">
+        	(function($){
+        		'use strict';
+        		$(function(){
+        			var current_year = new Date().getFullYear();
+        			$('span#experience-year').text(current_year-2013);
+        		});
+        	})(jQuery)
+        </script>
     </body>
 </html>
