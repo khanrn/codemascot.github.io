@@ -104,5 +104,6 @@ span.current-job img.img-responsive {
     }
   span.current-job img.img-responsive {
     width: 10%;
+    position: absolute;
   }
 }
