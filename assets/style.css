@@ -67,7 +67,7 @@ span.current-job img.img-responsive {
 }
 
 .work .company-logo img {
-  width: 50%;
+  width: 100%;
 }
 
 .work .job-des {
@@ -90,16 +90,16 @@ span.current-job img.img-responsive {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    .account h1 {
-    	font-size: 1.5rem;
-    }
+  .account h1 {
+  	font-size: 1.5rem;
+  }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-    .account h1 {
-    	font-size: 2rem;
-    }
+  .account h1 {
+  	font-size: 2rem;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -111,6 +111,9 @@ span.current-job img.img-responsive {
     span.current-job img.img-responsive {
       width: 15%;
     }
+  .work .company-logo img {
+    width: 50% !important;
+  }
 }
 
 /* Medium Devices, Desktops */
