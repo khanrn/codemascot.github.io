@@ -62,6 +62,10 @@ span.current-job img.img-responsive {
   margin-left: 5px;
 }
 
+.work.head-text {
+  padding-bottom: 20px;
+}
+
 .work .company-logo {
   margin: auto;
 }
