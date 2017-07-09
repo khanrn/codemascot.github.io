@@ -44,6 +44,7 @@ input[type="color"]:focus,
 .account h1 {
 	display: inline;
 	line-height: inherit;
+  font-weight: bolder;
 }
 .account h1 span {
     font-size: small;
