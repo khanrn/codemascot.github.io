@@ -29,7 +29,8 @@ input[type="color"]:focus,
 }
 
 .profile-pic {
-  
+    width:25%; 
+    margin-bottom: 3%;
 }
 
 .accounts {
