@@ -1,0 +1,147 @@
+body {
+  padding-top: 2rem;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  
+  outline: 0 none !important;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.profile-pic {
+    width:25%; 
+    margin-bottom: 3%;
+}
+
+.accounts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.accounts a {
+	text-decoration: none;
+	color: inherit;
+}
+.account {
+	display: inline-block;
+	padding: 20px 0;
+}
+
+.account h1 {
+	display: inline;
+	line-height: inherit;
+  font-weight: bolder;
+}
+.account h1 span {
+    font-size: small;
+    display: block;
+    line-height: 1;
+}
+.account .col-3 {
+	padding-right: 5px;
+}
+.account .col-9 {
+	padding-left: 5px;
+}
+
+span.current-job img.img-responsive {
+  width: 25%;
+  margin-left: 5px;
+}
+
+.work.head-text {
+  padding-bottom: 20px;
+}
+
+.work .company-logo {
+  margin: auto;
+}
+
+.work .company-logo img {
+  width: 100%;
+}
+
+.work .job-des {
+  margin: auto;
+}
+
+.work .job-des h3 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.work .job-des h4 {
+    font-size: 1.4rem;
+}
+
+.work .job-des h4 i {
+    font-size: 1.1rem;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .account h1 {
+  	font-size: 1.5rem;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .account h1 {
+  	font-size: 2rem;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .account h1 {
+    	font-size: 2rem;
+	    line-height: 1;
+    }
+    span.current-job img.img-responsive {
+      width: 15%;
+    }
+  .work .company-logo img {
+    width: 80% !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .account h1 {
+    	font-size: 2.5rem;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.account h1 {
+    	font-size: 2.5rem;
+    	line-height: inherit;
+    }
+  span.current-job img.img-responsive {
+    width: 10%;
+    position: absolute;
+  }
+}

@@ -1,37 +1,210 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+        <title>Khan Mohammad Rashedun-Naby</title>
+        <!-- Bootstrap core CSS -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="assets/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="assets/img/khan.png" class="img-fluid rounded-circle profile-pic" />
+                        </div>
+                    </div>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    <h1><b>Khan Mohammad Rashedun-Naby</b></h1>
+                    <p class="lead">
+                    	Web Application Developer with <span id="experience-year"></span>+ Years of experience in software industry.
+                    	<br />Check those below profiles to know more about me-
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="offset-2 col-8 accounts">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="https://github.com/rnaby">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/github.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>GitHub<span>@rnaby</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="http://wordpress.stackexchange.com/users/44192/the-dramatist">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/stackexchange.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>StackExchange<span>@the_dramatist</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="https://profiles.wordpress.org/rnaby">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/wordpress.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>WordPress<span>@rnaby</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="https://github.com/rnaby/Coursera-Certificates">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/coursera.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>Coursera<span>&nbsp;Certificates</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="https://www.goodreads.com/the_dramatist">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/goodreads.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>Goodreads<span>@the_dramatist</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_blank" href="https://www.linkedin.com/in/rnaby">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/linkedin.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>LinkedIn<span>@rnaby</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+                <div class="col-sm-12 work head-text text-center">
+                    <h1>Current working status-</h1>
+                </div>
+                <div class="col-sm-12 work">
+                    <div class="row">
+                        <div class="offset-2 col-8">
+                            <div class="row">
+                                <div class="col-sm-12 clearfix text-center company-logo">
+                                    <a target="_blank" href="https://inpsyde.com/en/about-inpsyde/inpsyde-team/">
+                                        <img class="img-responsive" src="assets/img/inpsyde.svg">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 account clearfix text-center job-des">
+                                    <h3>WordPress Engineer</h3>
+                                    <h4><i>March, 2017 - Present</i></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+                <div class="col-sm-12 work">
+                    <div class="row">
+                        <div class="offset-2 col-8 account">
+                            <div class="row">
+                                <div class="col-sm-12 clearfix text-center company-logo">
+                                    <a target="_blank" href="http://www.marssociety.org/">
+                                        <img class="img-responsive" src="assets/img/Mars_Society_logo.png">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 clearfix text-center job-des">
+                                    <h3>Volunteer Programmer</h3>
+                                    <h4><i>September, 2016 - Present</i></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 text-center">
+                    <h1>You can contact me through-</h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="offset-2 col-8 accounts">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a href="mailto:naby88@gmail.com" target="_top"">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/email.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>Gmail<span>naby88@gmail.com</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 account clearfix">
+                                    <a target="_top" href="skype:rashedun_naby?call">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="img-responsive" src="assets/img/skype.svg">
+                                            </div>
+                                            <div class="col-9">
+                                                <h1>Skype<span>@rashedun_naby</span></h1>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+        <!-- Bootstrap core JavaScript
+            ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <script type="text/javascript">
+        	(function($){
+        		'use strict';
+        		$(function(){
+        			var current_year = new Date().getFullYear();
+        			$('span#experience-year').text(current_year-2012);
+        		});
+        	})(jQuery)
+        </script>
+    </body>
+</html>
