@@ -131,11 +131,16 @@ a.sidebar-nav-item:focus {
 a {
     color: #800080;
 }
+
+.post-title a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+
 a.read-more {
     display: block;
     padding: 20px 0;
     font-weight: 700;
-    font-style: italic;
 }
 
 @media (min-width: 48em) {
