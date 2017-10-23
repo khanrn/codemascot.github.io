@@ -59,6 +59,25 @@ html {
   color: #9b111e;
   background-color: #e0e0e0eb;
 }
+
+.categories {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.categories span {
+    background: #800080;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.post-date {
+    margin-bottom: 0rem;
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
