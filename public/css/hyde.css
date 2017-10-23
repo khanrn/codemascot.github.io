@@ -58,6 +58,7 @@ html {
   padding: 2rem 1rem;
   color: #9b111e;
   background-color: #e0e0e0eb;
+  border-bottom: 8px solid;
 }
 
 .categories {
@@ -98,6 +99,7 @@ html {
     width: 18rem;
     text-align: left;
     border-right: 8px solid;
+    border-bottom: 0;
   }
 }
 
