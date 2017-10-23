@@ -11,9 +11,8 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <div class="categories"><span>{{ page.categories | join: '</span><span>' }}</span></div>
     {{ post.content | strip_html | truncatewords:30 }}
     <a class="read-more" href="{{ post.url }}">Read more...</a>
   </div>
