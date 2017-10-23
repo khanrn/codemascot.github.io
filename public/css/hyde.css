@@ -24,7 +24,7 @@
  * Themes
  */
 
-
+@@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /*
  * Global resets
  *
@@ -64,7 +64,6 @@ html {
     display: block;
     margin-bottom: 1rem;
 }
-
 .categories span {
     background: #800080;
     color: #fff;
@@ -72,6 +71,9 @@ html {
     font-size: 14px;
     margin-right: 5px;
     border-radius: 3px;
+}
+.categories span:before {
+    content: "f02b ";
 }
 
 .post-date {
