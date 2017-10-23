@@ -81,6 +81,13 @@ html {
 .post-date {
     margin-bottom: 0rem;
 }
+.post-date:before {
+    content: "\f073";
+    font-family: "FontAwesome";
+    padding-right: 5px;
+    vertical-align: baseline;
+    font-size: .98rem;
+}
 
 @media (min-width: 48em) {
   .sidebar {
