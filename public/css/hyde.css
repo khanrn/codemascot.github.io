@@ -73,7 +73,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #800080;
+  color: #9b111e;
 }
 
 /* About section */
@@ -87,14 +87,18 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  border-left: 4px solid;
 }
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  padding-left: 10px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  background: #9b111e;
+  color: #fff;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
