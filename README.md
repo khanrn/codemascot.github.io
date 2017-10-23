@@ -1,4 +1,3 @@
-rnaby.github.io
-===============
+# TheDramatist Blog
 
-It's my personal portfolio site for GitHub
+This is the personal blog for Khan M Rashedun-Naby AKA [TheDramatist](http://rnaby.github.io)
