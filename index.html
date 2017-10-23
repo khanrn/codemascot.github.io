@@ -12,7 +12,7 @@ title: Home
       </a>
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {% if post.categories %}
+    {% if post.categories != 0 %}
     <div class="categories"><span>{{ post.categories | join: '</span><span>' }}</span></div>
     {% endif %}
     {{ post.content | strip_html | truncatewords:30 }}
