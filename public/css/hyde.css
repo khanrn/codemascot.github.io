@@ -73,7 +73,9 @@ html {
     border-radius: 3px;
 }
 .categories span:before {
-    content: "f02b ";
+    content: "\f02b ";
+    font-family: "FontAwesome";
+    margin-right: 6px;
 }
 
 .post-date {
