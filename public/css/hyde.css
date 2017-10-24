@@ -56,6 +56,10 @@ html {
     background-color: #e0e0e0eb;
     border-bottom: 8px solid;
 }
+.khan-img img {
+    width: 60%;
+    margin: 1rem auto;
+}
 .categories {
     display: block;
     margin-bottom: 1rem;
