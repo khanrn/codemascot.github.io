@@ -69,7 +69,7 @@ html {
     border-radius: 3px;
 }
 .categories span:before {
-    content: "\f02b ";
+    content: "\f02c";
     font-family: "FontAwesome";
     margin-right: 6px;
 }
@@ -112,14 +112,21 @@ html {
 .sidebar a {
     color: #9b111e;
 }
+
+.sidebar-about h1 a {
+    color: #fff;
+    padding: 4px;
+}
 /* About section */
 
 .sidebar-about h1 {
-    color: #fff;
     margin-top: 0;
     font-family: "Abril Fatface", serif;
     font-size: 2rem;
+    background: #9b111e;
+    border-radius: 3px;
 }
+
 /* Sidebar nav */
 
 .sidebar-nav {
