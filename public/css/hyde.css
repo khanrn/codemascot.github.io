@@ -94,13 +94,13 @@ html {
         border-right: 8px solid;
         border-bottom: 0;
     }
-    span.pagination-item.older:before {
+    .pagination-item.older:before {
         font-family: "FontAwesome";
         font-size: 22px;
         content: "\f0a8";
         padding-right: 10px;
     }
-    span.pagination-item.newer:after {
+    .pagination-item.newer:after {
         font-family: "FontAwesome";
         font-size: 22px;
         content: "\f0a9";
