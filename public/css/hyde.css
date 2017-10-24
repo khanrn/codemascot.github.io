@@ -56,6 +56,11 @@ html {
     background-color: #e0e0e0eb;
     border-bottom: 8px solid;
 }
+.lead {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
 .khan-img img {
     width: 60%;
     margin: 1rem auto;
