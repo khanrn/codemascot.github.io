@@ -96,13 +96,13 @@ html {
     }
     .pagination-item.older:before {
         font-family: "FontAwesome";
-        font-size: 22px;
+        font-size: 1rem;
         content: "\f0a8";
         padding-right: 10px;
     }
     .pagination-item.newer:after {
         font-family: "FontAwesome";
-        font-size: 22px;
+        font-size: 1rem;
         content: "\f0a9";
         padding-left: 10px;
     }
