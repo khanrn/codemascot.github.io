@@ -146,16 +146,26 @@ html {
 .sidebar-nav-item {
     display: block;
     line-height: 1.75;
+    border: 3px solid #9b111e;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-    text-decoration: line-through;
     font-weight: 700;
+    background: #9b111e;
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.5s all;
 }
 .sidebar-nav-item.active {
     font-weight: bold;
-    text-decoration: line-through;
     pointer-events: none;
+    color: #fff;
+    background: #9b111e;
 }
 .sidebar-icons ul {
     list-style: none;
