@@ -136,6 +136,8 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
     font-weight: bold;
+    text-decoration: line-through;
+    pointer-events: none;
 }
 .sidebar-icons ul {
     list-style: none;
