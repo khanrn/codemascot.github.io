@@ -5,11 +5,11 @@ permalink: /blog/
 ---
 
 <div class="posts">
-  {% if paginator.pots == null %}
-    <h1>This blog is just launched. I'm working on writing some posts. Hope you'll get some posts very soon.</h1>
+  {% if paginator.posts == null %}
+    <h1>Blog posts are coming soon.</h1>
   {% else %}
-  {% for post in paginator.posts %}
-  <div class="post">
+    {% for post in paginator.posts %}
+    <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
@@ -21,8 +21,8 @@ permalink: /blog/
     {% endunless %}
     {{ post.content | strip_html | truncatewords:30 }}
     <a class="read-more" href="{{ post.url }}">Read more...</a>
-  </div>
-  {% endfor %}
+    </div>
+    {% endfor %}
   {% endif %}
 </div>
 
