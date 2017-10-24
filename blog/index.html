@@ -5,6 +5,9 @@ permalink: /blog/
 ---
 
 <div class="posts">
+  {% if paginator.pots == null %}
+    <h1>This blog is just launched. I'm working on writing some posts. Hope you'll get some posts very soon.</h1>
+  {% else %}
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -20,6 +23,7 @@ permalink: /blog/
     <a class="read-more" href="{{ post.url }}">Read more...</a>
   </div>
   {% endfor %}
+  {% endif %}
 </div>
 
 <div class="pagination">
