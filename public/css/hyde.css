@@ -140,12 +140,19 @@ p.message {
     background-color: #e6e5e5;
     color:#9b111e;
     border-radius: 4px;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 1rem;
 }
 p.message:before {
-    content:'"';
-    font-size: 2.5rem;
-    vertical-align: middle;
+    content: '\f10d';
+    font-size: 0.7rem;
+    font-family: "FontAwesome";
+    vertical-align: top;
+}
+p.message:after {
+    content: '\f10e';
+    font-size: 0.7rem;
+    font-family: "FontAwesome";
+    vertical-align:top;
 }
 ul.software-tools {
     list-style: none;
