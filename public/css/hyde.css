@@ -97,6 +97,45 @@ html {
     width:50%;
     margin: 10px auto;
 }
+ul.profiles {
+    padding-left:0;
+}
+
+ul.profiles li {
+    list-style: none;
+    color: #9b111e;
+    font-size: 1.2rem !important;
+}
+
+li.stk-ex:before {
+    content: "\f16c";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+li.github:before {
+    content: "\f113";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+li.wp-org:before {
+    content: "\f19a";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+li.lnk-in:before {
+    content: "\f08c";
+    font-family: "FontAwesome";
+    padding-right: 12px;
+}
+
+li.twiter:before {
+    content: "\f081";
+    font-family: "FontAwesome";
+    padding-right: 12px;
+}
 @media (min-width: 48em) {
     .sidebar {
         position: fixed;
