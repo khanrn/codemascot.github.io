@@ -142,11 +142,22 @@ p.message {
     border-radius: 4px;
     padding: 0.2rem 1rem;
 }
-
 p.message:before {
     content:'"';
     font-size: 2.5rem;
     vertical-align: middle;
+}
+ul.software-tools {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.software-tools li:before {
+    content:"\f046";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    padding-right: 10px;
+    color: #9b111e;
 }
 @media (min-width: 48em) {
     .sidebar {
