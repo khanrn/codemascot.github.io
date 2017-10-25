@@ -93,6 +93,10 @@ html {
     vertical-align: baseline;
     font-size: .98rem;
 }
+.sidebar nav .sidebar-nav-item {
+    width:50%;
+    margin: 10px auto;
+}
 @media (min-width: 48em) {
     .sidebar {
         position: fixed;
@@ -103,6 +107,9 @@ html {
         text-align: left;
         border-right: 8px solid;
         border-bottom: 0;
+    }
+    .sidebar nav .sidebar-nav-item {
+        margin:10px 0;
     }
     .pagination-item.older:before {
         font-family: "FontAwesome";
