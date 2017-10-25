@@ -64,6 +64,7 @@ html {
 .khan-img img {
     width: 60%;
     margin: 1rem auto;
+    border-radius: 50%;
 }
 .categories {
     display: block;
