@@ -161,12 +161,13 @@ ul.software-tools li:before {
 }
 .pm-tools span {
     padding-right: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 .pm-tools span:before {
     content: "\f046";
     font-family: "FontAwesome";
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-right: 5px;
     color: #9b111e;
 }
