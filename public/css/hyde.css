@@ -155,8 +155,19 @@ ul.software-tools {
 ul.software-tools li:before {
     content:"\f046";
     font-family: "FontAwesome";
-    font-size: 15px;
+    font-size: 0.7rem;
     padding-right: 10px;
+    color: #9b111e;
+}
+.pm-tools span {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.pm-tools span:before {
+    content: "\f046";
+    font-family: "FontAwesome";
+    font-size: 1rem;
+    padding-right: 5px;
     color: #9b111e;
 }
 @media (min-width: 48em) {
