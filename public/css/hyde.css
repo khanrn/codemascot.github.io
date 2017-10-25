@@ -136,6 +136,18 @@ li.twiter:before {
     font-family: "FontAwesome";
     padding-right: 12px;
 }
+p.message {
+    background-color: #e6e5e5;
+    color:#9b111e;
+    border-radius: 4px;
+    padding: 0.2rem 1rem;
+}
+
+p.message:before {
+    content:'"';
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
 @media (min-width: 48em) {
     .sidebar {
         position: fixed;
