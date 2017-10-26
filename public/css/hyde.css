@@ -21,7 +21,7 @@
  * Reverse layout
  * Themes
  */
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lato|Source+Sans+Pro');
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /*
  * Global resets
@@ -118,24 +118,22 @@ li.github:before {
     font-family: "FontAwesome";
     padding-right: 10px;
 }
-
 li.wp-org:before {
     content: "\f19a";
     font-family: "FontAwesome";
     padding-right: 10px;
 }
-
 li.lnk-in:before {
     content: "\f08c";
     font-family: "FontAwesome";
     padding-right: 12px;
 }
-
 li.twiter:before {
     content: "\f081";
     font-family: "FontAwesome";
     padding-right: 12px;
 }
+
 p.message {
     background-color: #e6e5e5;
     color:#9b111e;
@@ -178,6 +176,12 @@ ul.software-tools li:before {
     font-size: 0.8rem;
     padding-right: 5px;
     color: #9b111e;
+}
+.about-me {
+    font-family: "Source Sans Pro";
+}
+.page p, .page li {
+    font-family: "Lato";
 }
 @media (min-width: 48em) {
     .sidebar {
