@@ -178,10 +178,10 @@ ul.software-tools li:before {
     color: #9b111e;
 }
 .about-me {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro" !important;
 }
 .page p, .page li {
-    font-family: "Lato";
+    font-family: "Lato" !important;
 }
 @media (min-width: 48em) {
     .sidebar {
