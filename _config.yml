@@ -10,7 +10,7 @@ title:            TheDramatist
 tagline:          'Web Programmer'
 description:      'A self-taught guy who writes poetry with code. Keen to learn new things. And always ready to contribute as well as help or support.'
 url:              http://www.thedramatist.me
-baseurl:          /
+baseurl:          http://www.thedramatist.me/
 # baseurl:          http://rnaby.github.io/
 
 author:
