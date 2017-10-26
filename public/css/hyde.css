@@ -140,7 +140,8 @@ p.message {
     background-color: #e6e5e5;
     color:#9b111e;
     border-radius: 4px;
-    padding: 0.5rem 1rem;
+    padding: 1.7rem 1rem;
+    text-align: center;
 }
 p.message:before {
     content: '\f10d';
