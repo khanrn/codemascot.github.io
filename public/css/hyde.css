@@ -21,7 +21,7 @@
  * Themes
  */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Lato|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /*
  * Global resets
@@ -103,7 +103,7 @@ ul.profiles {
 ul.profiles li {
     list-style: none;
     color: #9b111e;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
 }
 li.stk-ex:before {
     content: "\f16c";
@@ -139,13 +139,14 @@ p.message {
 }
 p.message:before {
     content: '\f10d';
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-family: "FontAwesome";
     vertical-align: top;
+    padding-right: 1px;
 }
 p.message:after {
     content: '\f10e';
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-family: "FontAwesome";
     vertical-align: top;
 }
@@ -185,7 +186,8 @@ ul.software-tools li.com:before {
 .pm-tools span {
     padding-right: 10px;
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: 500;
+    color: #9b111e;
 }
 .pm-tools span:before {
     content: "\f046";
@@ -195,7 +197,7 @@ ul.software-tools li.com:before {
     color: #9b111e;
 }
 .about-me {
-    font-family: "Source Sans Pro" !important;
+    font-family: "PT Serif Caption" !important;
 }
 .page p,
 .page li {
@@ -217,7 +219,7 @@ ul.software-tools li.com:before {
     }
     .page p,
     .page li {
-        font-size: 16px;
+        font-size: 14px;
     }
     .sidebar nav .sidebar-nav-item {
         margin: 10px 0;
