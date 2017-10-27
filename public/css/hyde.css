@@ -168,11 +168,11 @@ ul.software-tools li.os:before {
     content:"\f17c";
 }
 ul.software-tools li.ide:before {
-    content:"\f121";
+    content:"\f1c9";
     padding-right:5px
 }
 ul.software-tools li.editor:before {
-    content:"\f1c9";
+    content:"\f120";
 }
 ul.software-tools li.vcs:before {
     content:"\f126";
