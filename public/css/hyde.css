@@ -1,17 +1,16 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
+/**
+
+████████╗██╗  ██╗███████╗    ██████╗ ██████╗  █████╗ ███╗   ███╗ █████╗ ████████╗██╗███████╗████████╗
+╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██╔══██╗██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝██║██╔════╝╚══██╔══╝
+   ██║   ███████║█████╗      ██║  ██║██████╔╝███████║██╔████╔██║███████║   ██║   ██║███████╗   ██║
+   ██║   ██╔══██║██╔══╝      ██║  ██║██╔══██╗██╔══██║██║╚██╔╝██║██╔══██║   ██║   ██║╚════██║   ██║
+   ██║   ██║  ██║███████╗    ██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║   ██║   ██║███████║   ██║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚══════╝   ╚═╝
+
+  Forked form https://github.com/poole/hyde.
+
+*/
+
 /*
  * Contents
  *
@@ -21,6 +20,7 @@
  * Reverse layout
  * Themes
  */
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Lato|Source+Sans+Pro');
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /*
@@ -94,25 +94,22 @@ html {
     font-size: .98rem;
 }
 .sidebar nav .sidebar-nav-item {
-    width:50%;
+    width: 50%;
     margin: 10px auto;
 }
 ul.profiles {
-    padding-left:0;
+    padding-left: 0;
 }
-
 ul.profiles li {
     list-style: none;
     color: #9b111e;
     font-size: 1.2rem !important;
 }
-
 li.stk-ex:before {
     content: "\f16c";
     font-family: "FontAwesome";
     padding-right: 10px;
 }
-
 li.github:before {
     content: "\f113";
     font-family: "FontAwesome";
@@ -133,10 +130,9 @@ li.twiter:before {
     font-family: "FontAwesome";
     padding-right: 12px;
 }
-
 p.message {
     background-color: #e6e5e5;
-    color:#9b111e;
+    color: #9b111e;
     border-radius: 4px;
     padding: 1rem;
     text-align: center;
@@ -151,7 +147,7 @@ p.message:after {
     content: '\f10e';
     font-size: 0.7rem;
     font-family: "FontAwesome";
-    vertical-align:top;
+    vertical-align: top;
 }
 ul.software-tools {
     list-style: square;
@@ -167,19 +163,19 @@ ul.software-tools li:before {
     padding-right: 10px;
     padding-left: 10px;
     color: #9b111e;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 ul.software-tools li.os:before {
-    content:"\f17c";
+    content: "\f17c";
 }
 ul.software-tools li.ide:before {
-    content:"\f1c9";
+    content: "\f1c9";
 }
 ul.software-tools li.editor:before {
-    content:"\f120";
+    content: "\f120";
 }
 ul.software-tools li.vcs:before {
-    content:"\f126";
+    content: "\f126";
     text-align: right;
     padding-right: 17px;
 }
@@ -201,7 +197,8 @@ ul.software-tools li.com:before {
 .about-me {
     font-family: "Source Sans Pro" !important;
 }
-.page p, .page li {
+.page p,
+.page li {
     font-family: "Lato" !important;
 }
 @media (min-width: 48em) {
@@ -218,11 +215,12 @@ ul.software-tools li.com:before {
     .about-me {
         font-size: 1.5rem !important;
     }
-    .page p, .page li {
+    .page p,
+    .page li {
         font-size: 16px;
     }
     .sidebar nav .sidebar-nav-item {
-        margin:10px 0;
+        margin: 10px 0;
     }
     .pagination-item.older:before {
         font-family: "FontAwesome";
@@ -242,10 +240,9 @@ ul.software-tools li.com:before {
 .sidebar a {
     color: #9b111e;
 }
-
 .sidebar-about h1 a {
     color: #fff;
-    padding: 4px;
+    padding: 0px;
 }
 /* About section */
 
@@ -256,8 +253,8 @@ ul.software-tools li.com:before {
     background: #9b111e;
     border-radius: 3px;
     text-align: center;
+    padding-top: 4px;
 }
-
 /* Sidebar nav */
 
 .sidebar-nav {
