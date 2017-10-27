@@ -157,6 +157,9 @@ ul.software-tools {
     list-style: none;
     padding-left: 0;
 }
+ul.software-tools li {
+    color: #9b111e;
+}
 ul.software-tools li:before {
     font-family: "FontAwesome";
     font-size: 1.5rem;
