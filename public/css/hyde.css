@@ -157,13 +157,29 @@ ul.software-tools {
     list-style: none;
     padding-left: 0;
 }
-
 ul.software-tools li:before {
-    content:"\f046";
     font-family: "FontAwesome";
-    font-size: 0.7rem;
+    font-size: 1.5rem;
     padding-right: 10px;
     color: #9b111e;
+    vertical-align:middle;
+}
+ul.software-tools li.os:before {
+    content:"\f17c";
+}
+ul.software-tools li.ide:before {
+    content:"\f121";
+    padding-right:5px
+}
+ul.software-tools li.editor:before {
+    content:"\f1c9";
+}
+ul.software-tools li.vcs:before {
+    content:"\f126";
+    padding-right:15px
+}
+ul.software-tools li.com:before {
+    content:"\f098";
 }
 .pm-tools span {
     padding-right: 10px;
