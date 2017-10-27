@@ -179,7 +179,7 @@ ul.software-tools li.editor:before {
 ul.software-tools li.vcs:before {
     content:"\f126";
     text-align: right;
-    padding-right: 10px;
+    padding-right: 7px;
     padding-left: 10px;
 }
 ul.software-tools li.com:before {
