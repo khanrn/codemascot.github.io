@@ -154,8 +154,9 @@ p.message:after {
     vertical-align:top;
 }
 ul.software-tools {
-    list-style: none;
-    padding-left: 0;
+    list-style: square;
+    padding: 0;
+    padding-left: 25px;
 }
 ul.software-tools li {
     color: #9b111e;
@@ -164,6 +165,7 @@ ul.software-tools li:before {
     font-family: "FontAwesome";
     font-size: 1rem;
     padding-right: 10px;
+    padding-left: 10px;
     color: #9b111e;
     vertical-align:middle;
 }
@@ -179,8 +181,7 @@ ul.software-tools li.editor:before {
 ul.software-tools li.vcs:before {
     content:"\f126";
     text-align: right;
-    padding-right: 7px;
-    padding-left: 10px;
+    padding-right: 17px;
 }
 ul.software-tools li.com:before {
     content:"\f098";
