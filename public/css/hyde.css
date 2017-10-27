@@ -162,7 +162,7 @@ ul.software-tools li {
 }
 ul.software-tools li:before {
     font-family: "FontAwesome";
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-right: 10px;
     color: #9b111e;
     vertical-align:middle;
@@ -187,7 +187,7 @@ ul.software-tools li.com:before {
 }
 .pm-tools span {
     padding-right: 10px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 .pm-tools span:before {
