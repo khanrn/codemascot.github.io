@@ -196,7 +196,7 @@ ul.software-tools li.com:before {
     padding-right: 5px;
     color: #9b111e;
 }
-.about-me, .post-title {
+.page-title, .post-title {
     font-family: "PT Serif Caption" !important;
 }
 .page p,
@@ -214,7 +214,7 @@ ul.software-tools li.com:before {
         border-right: 8px solid;
         border-bottom: 0;
     }
-    .about-me {
+    .page-title, .post-title {
         font-size: 1.5rem !important;
     }
     .page p,
