@@ -169,14 +169,13 @@ ul.software-tools li.os:before {
 }
 ul.software-tools li.ide:before {
     content:"\f1c9";
-    padding-right:5px
 }
 ul.software-tools li.editor:before {
     content:"\f120";
 }
 ul.software-tools li.vcs:before {
     content:"\f126";
-    padding-right:15px
+    padding-right:15px;
 }
 ul.software-tools li.com:before {
     content:"\f098";
