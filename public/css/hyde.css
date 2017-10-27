@@ -178,7 +178,9 @@ ul.software-tools li.editor:before {
 }
 ul.software-tools li.vcs:before {
     content:"\f126";
-    padding-right:15px;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 ul.software-tools li.com:before {
     content:"\f098";
