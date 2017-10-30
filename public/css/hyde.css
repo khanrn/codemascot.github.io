@@ -158,6 +158,13 @@ ul.software-tools {
 ul.software-tools li {
     color: #9b111e;
 }
+ul.software-tools li span {
+    background: #9b111e;
+    color: #fff;
+    padding: 1px 7px 4px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+}
 ul.software-tools li:before {
     font-family: "FontAwesome";
     font-size: 1rem;
