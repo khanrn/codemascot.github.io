@@ -116,7 +116,7 @@ li.github:before {
     padding-right: 10px;
 }
 li.packagist:before {
-    content: "\f24d";
+    content: "\f16b";
     font-family: "FontAwesome";
     padding-right: 9px;
 }
