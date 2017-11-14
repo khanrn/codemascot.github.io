@@ -115,6 +115,11 @@ li.github:before {
     font-family: "FontAwesome";
     padding-right: 10px;
 }
+li.packagist:before {
+    content: "\f24d";
+    font-family: "FontAwesome";
+    padding-right: 9px;
+}
 li.wp-org:before {
     content: "\f19a";
     font-family: "FontAwesome";
