@@ -21,438 +21,439 @@
  * Themes
  */
 
-@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
-html {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-@media (min-width: 48em) {
-    html {
-        font-size: 16px;
-    }
-}
-@media (min-width: 58em) {
-    html {
-        font-size: 20px;
-    }
-}
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
-.sidebar {
-    text-align: center;
-    padding: 2rem 1rem;
-    color: #9b111e;
-    background-color: #e0e0e0eb;
-    border-bottom: 8px solid;
-}
-.lead {
-    font-size: 0.8rem;
-    font-weight: 300;
-    line-height: 1rem;
-}
-.khan-img img {
-    width: 60%;
-    margin: 1rem auto;
-    border-radius: 50%;
-}
-.categories {
-    display: block;
-    margin-bottom: 1rem;
-}
-.categories span {
-    background: #9b111e;
-    color: #fff;
-    padding: 2px 10px;
-    font-size: 14px;
-    margin-right: 5px;
-    border-radius: 3px;
-}
-.categories span:before {
-    content: "\f02c";
-    font-family: "FontAwesome";
-    margin-right: 6px;
-}
-.post-date {
-    margin-bottom: 0rem;
-}
-.post-date:before {
-    content: "\f073";
-    font-family: "FontAwesome";
-    padding-right: 5px;
-    vertical-align: baseline;
-    font-size: .98rem;
-}
-.sidebar nav .sidebar-nav-item {
-    width: 50%;
-    margin: 10px auto;
-}
-ul.profiles {
-    padding-left: 0;
-}
-ul.profiles li {
-    list-style: none;
-    color: #9b111e;
-    font-size: 1rem !important;
-}
-li.stk-ex:before {
-    content: "\f16c";
-    font-family: "FontAwesome";
-    padding-right: 10px;
-}
-li.github:before {
-    content: "\f113";
-    font-family: "FontAwesome";
-    padding-right: 10px;
-}
-li.packagist:before {
-    content: "\f16b";
-    font-family: "FontAwesome";
-    padding-right: 9px;
-}
-li.wp-org:before {
-    content: "\f19a";
-    font-family: "FontAwesome";
-    padding-right: 10px;
-}
-li.lnk-in:before {
-    content: "\f08c";
-    font-family: "FontAwesome";
-    padding-right: 12px;
-}
-li.twiter:before {
-    content: "\f081";
-    font-family: "FontAwesome";
-    padding-right: 12px;
-}
-p.message {
-    background-color: #e6e5e5;
-    color: #9b111e;
-    border-radius: 4px;
-    padding: 1rem;
-    text-align: center;
-}
-p.message:before {
-    content: '\f10d';
-    font-size: 0.5rem;
-    font-family: "FontAwesome";
-    vertical-align: top;
-    padding-right: 1px;
-}
-p.message:after {
-    content: '\f10e';
-    font-size: 0.5rem;
-    font-family: "FontAwesome";
-    vertical-align: top;
-}
-ul.software-tools {
-    list-style: square;
-    padding: 0;
-    padding-left: 25px;
-}
-ul.software-tools li {
-    color: #9b111e;
-}
-ul.software-tools li span {
-    background: #9b111e;
-    color: #fff;
-    padding: 1px 7px 4px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-}
-ul.software-tools li:before {
-    font-family: "FontAwesome";
-    font-size: 1rem;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #9b111e;
-    vertical-align: middle;
-}
-ul.software-tools li.os:before {
-    content: "\f17c";
-}
-ul.software-tools li.ide:before {
-    content: "\f1c9";
-}
-ul.software-tools li.editor:before {
-    content: "\f120";
-}
-ul.software-tools li.vcs:before {
-    content: "\f126";
-    text-align: right;
-    padding-right: 17px;
-}
-ul.software-tools li.com:before {
-    content: "\f2a0";
-}
-.pm-tools span {
-    padding-right: 10px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #9b111e;
-}
-.pm-tools span:before {
-    content: "\f046";
-    font-family: "FontAwesome";
-    font-size: 0.8rem;
-    padding-right: 5px;
-    color: #9b111e;
-}
-.page-title, .post-title {
-    font-family: "PT Serif Caption" !important;
-}
-.page p,
-.page li {
-    font-family: "Lato" !important;
-}
-@media (min-width: 48em) {
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 18rem;
-        text-align: left;
-        border-right: 8px solid;
-        border-bottom: 0;
-    }
-    .page-title, .post-title {
-        font-size: 1rem !important;
-    }
-    .page p,
-    .page li {
-        font-size: 15px;
-    }
-    .sidebar nav .sidebar-nav-item {
-        margin: 10px 0;
-    }
-    .pagination-item.older:before {
-        font-family: "FontAwesome";
-        font-size: 1rem;
-        content: "\f0a8";
-        padding-right: 10px;
-    }
-    .pagination-item.newer:after {
-        font-family: "FontAwesome";
-        font-size: 1rem;
-        content: "\f0a9";
-        padding-left: 10px;
-    }
-}
-/* Sidebar links */
-
-.sidebar a {
-    color: #9b111e;
-}
-.sidebar-about h1 a {
-    color: #fff;
-    padding: 0px;
-}
-/* About section */
-
-.sidebar-about h1 {
-    margin-top: 0;
-    font-family: "Merriweather", serif;
-    font-size: 1.2rem;
-    background: #9b111e;
-    border-radius: 3px;
-    text-align: center;
-    padding-top: 4px;
-}
-/* Sidebar nav */
-
-.sidebar-nav {
-    margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-    display: block;
-    line-height: 1.75;
-    border: 3px solid #9b111e;
-    padding: 0 10px;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 0.8rem;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-    font-weight: 700;
-    background: #9b111e;
-    color: #ffff;
-    text-decoration: none;
-    transition: 0.5s all;
-}
-.sidebar-nav-item.active {
-    font-weight: bold;
-    pointer-events: none;
-    color: #fff;
-    background: #9b111e;
-}
-.sidebar-icons ul {
-    list-style: none;
-    padding: 0;
-}
-.sidebar-icons ul li {
-    display: inline-block;
-    padding-right: 9px;
-    font-size: 30px;
-}
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-    .sidebar-sticky {
-        position: absolute;
-        right: 1rem;
-        bottom: 1rem;
-        left: 1rem;
-    }
-}
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
-.content {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-a {
-    color: #9b111e;
-}
-.post-title a:hover {
-    color: #9b111e;
-}
-a.read-more {
-    display: block;
-    padding: 20px 0;
-    font-weight: 700;
-}
-@media (min-width: 48em) {
-    .content {
-        max-width: 38rem;
-        margin-left: 20rem;
-        margin-right: 2rem;
-    }
-}
-@media (min-width: 64em) {
-    .content {
-        margin-left: 22rem;
-        margin-right: 4rem;
-    }
-}
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-    .layout-reverse .sidebar {
-        left: auto;
-        right: 0;
-    }
-    .layout-reverse .content {
-        margin-left: 2rem;
-        margin-right: 20rem;
-    }
-}
-@media (min-width: 64em) {
-    .layout-reverse .content {
-        margin-left: 4rem;
-        margin-right: 22rem;
-    }
-}
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-/* Red */
-
-.theme-base-08 .sidebar {
-    background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-    color: #ac4142;
-}
-/* Orange */
-
-.theme-base-09 .sidebar {
-    background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-    color: #d28445;
-}
-/* Yellow */
-
-.theme-base-0a .sidebar {
-    background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-    color: #f4bf75;
-}
-/* Green */
-
-.theme-base-0b .sidebar {
-    background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-    color: #90a959;
-}
-/* Cyan */
-
-.theme-base-0c .sidebar {
-    background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-    color: #75b5aa;
-}
-/* Blue */
-
-.theme-base-0d .sidebar {
-    background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-    color: #6a9fb5;
-}
-/* Magenta */
-
-.theme-base-0e .sidebar {
-    background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-    color: #aa759f;
-}
-/* Brown */
-
-.theme-base-0f .sidebar {
-    background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-    color: #8f5536;
-}
+ @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
+ @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+ /*
+  * Global resets
+  *
+  * Update the foundational and global aspects of the page.
+  */
+ 
+ html {
+     font-family: "PT Sans", Helvetica, Arial, sans-serif;
+ }
+ @media (min-width: 48em) {
+     html {
+         font-size: 16px;
+     }
+ }
+ @media (min-width: 58em) {
+     html {
+         font-size: 20px;
+     }
+ }
+ /*
+  * Sidebar
+  *
+  * Flexible banner for housing site name, intro, and "footer" content. Starts
+  * out above content in mobile and later moves to the side with wider viewports.
+  */
+ 
+ .sidebar {
+     text-align: center;
+     padding: 2rem 1rem;
+     color: #9b111e;
+     background-color: #e0e0e0eb;
+     border-bottom: 8px solid;
+ }
+ .lead {
+     font-size: 0.8rem;
+     font-weight: 300;
+     line-height: 1rem;
+ }
+ .khan-img img {
+     width: 60%;
+     margin: 1rem auto;
+     border-radius: 50%;
+ }
+ .categories {
+     display: block;
+     margin-bottom: 1rem;
+ }
+ .categories span {
+     background: #9b111e;
+     color: #fff;
+     padding: 2px 10px;
+     font-size: 14px;
+     margin-right: 5px;
+     border-radius: 3px;
+ }
+ .categories span:before {
+     content: "\f02c";
+     font-family: "FontAwesome";
+     margin-right: 6px;
+ }
+ .post-date {
+     margin-bottom: 0rem;
+ }
+ .post-date:before {
+     content: "\f073";
+     font-family: "FontAwesome";
+     padding-right: 5px;
+     vertical-align: baseline;
+     font-size: .98rem;
+ }
+ .sidebar nav .sidebar-nav-item {
+     width: 50%;
+     margin: 10px auto;
+ }
+ ul.profiles {
+     padding-left: 0;
+ }
+ ul.profiles li {
+     list-style: none;
+     color: #9b111e;
+     font-size: 1rem !important;
+ }
+ li.stk-ex:before {
+     content: "\f16c";
+     font-family: "FontAwesome";
+     padding-right: 10px;
+ }
+ li.github:before {
+     content: "\f113";
+     font-family: "FontAwesome";
+     padding-right: 10px;
+ }
+ li.packagist:before {
+     content: "\f16b";
+     font-family: "FontAwesome";
+     padding-right: 9px;
+ }
+ li.wp-org:before {
+     content: "\f19a";
+     font-family: "FontAwesome";
+     padding-right: 10px;
+ }
+ li.lnk-in:before {
+     content: "\f08c";
+     font-family: "FontAwesome";
+     padding-right: 12px;
+ }
+ li.twiter:before {
+     content: "\f081";
+     font-family: "FontAwesome";
+     padding-right: 12px;
+ }
+ p.message {
+     background-color: #e6e5e5;
+     color: #9b111e;
+     border-radius: 4px;
+     padding: 1rem;
+     text-align: center;
+ }
+ p.message:before {
+     content: '\f10d';
+     font-size: 0.5rem;
+     font-family: "FontAwesome";
+     vertical-align: top;
+     padding-right: 1px;
+ }
+ p.message:after {
+     content: '\f10e';
+     font-size: 0.5rem;
+     font-family: "FontAwesome";
+     vertical-align: top;
+ }
+ ul.software-tools {
+     list-style: square;
+     padding: 0;
+     padding-left: 25px;
+ }
+ ul.software-tools li {
+     color: #9b111e;
+ }
+ ul.software-tools li span {
+     background: #9b111e;
+     color: #fff;
+     padding: 1px 7px 4px;
+     border-radius: 4px;
+     font-size: 0.7rem;
+ }
+ ul.software-tools li:before {
+     font-family: "FontAwesome";
+     font-size: 1rem;
+     padding-right: 10px;
+     padding-left: 10px;
+     color: #9b111e;
+     vertical-align: middle;
+ }
+ ul.software-tools li.os:before {
+     content: "\f17c";
+ }
+ ul.software-tools li.ide:before {
+     content: "\f1c9";
+ }
+ ul.software-tools li.editor:before {
+     content: "\f120";
+ }
+ ul.software-tools li.vcs:before {
+     content: "\f126";
+     text-align: right;
+     padding-right: 17px;
+ }
+ ul.software-tools li.com:before {
+     content: "\f2a0";
+ }
+ .pm-tools span {
+     padding-right: 10px;
+     font-size: 0.8rem;
+     font-weight: 500;
+     color: #9b111e;
+ }
+ .pm-tools span:before {
+     content: "\f046";
+     font-family: "FontAwesome";
+     font-size: 0.8rem;
+     padding-right: 5px;
+     color: #9b111e;
+ }
+ .page-title, .post-title {
+     font-family: "PT Serif Caption" !important;
+ }
+ .page p,
+ .page li {
+     font-family: "Lato" !important;
+ }
+ @media (min-width: 48em) {
+     .sidebar {
+         position: fixed;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         width: 18rem;
+         text-align: left;
+         border-right: 8px solid;
+         border-bottom: 0;
+     }
+     .page-title, .post-title {
+         font-size: 2rem !important;
+     }
+     .page p,
+     .page li {
+         font-size: 15px;
+     }
+     .sidebar nav .sidebar-nav-item {
+         margin: 10px 0;
+     }
+     .pagination-item.older:before {
+         font-family: "FontAwesome";
+         font-size: 1rem;
+         content: "\f0a8";
+         padding-right: 10px;
+     }
+     .pagination-item.newer:after {
+         font-family: "FontAwesome";
+         font-size: 1rem;
+         content: "\f0a9";
+         padding-left: 10px;
+     }
+ }
+ /* Sidebar links */
+ 
+ .sidebar a {
+     color: #9b111e;
+ }
+ .sidebar-about h1 a {
+     color: #fff;
+     padding: 0px;
+ }
+ /* About section */
+ 
+ .sidebar-about h1 {
+     margin-top: 0;
+     font-family: "Merriweather", serif;
+     font-size: 1.2rem;
+     background: #9b111e;
+     border-radius: 3px;
+     text-align: center;
+     padding-top: 4px;
+ }
+ /* Sidebar nav */
+ 
+ .sidebar-nav {
+     margin-bottom: 1rem;
+ }
+ .sidebar-nav-item {
+     display: block;
+     line-height: 1.75;
+     border: 3px solid #9b111e;
+     padding: 0 10px;
+     border-radius: 3px;
+     margin-bottom: 10px;
+     font-weight: bold;
+     font-size: 0.8rem;
+ }
+ a.sidebar-nav-item:hover,
+ a.sidebar-nav-item:focus {
+     font-weight: 700;
+     background: #9b111e;
+     color: #ffff;
+     text-decoration: none;
+     transition: 0.5s all;
+ }
+ .sidebar-nav-item.active {
+     font-weight: bold;
+     pointer-events: none;
+     color: #fff;
+     background: #9b111e;
+ }
+ .sidebar-icons ul {
+     list-style: none;
+     padding: 0;
+ }
+ .sidebar-icons ul li {
+     display: inline-block;
+     padding-right: 9px;
+     font-size: 30px;
+ }
+ /* Sticky sidebar
+  *
+  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+  * contents to the bottom of the sidebar in tablets and up.
+  */
+ 
+ @media (min-width: 48em) {
+     .sidebar-sticky {
+         position: absolute;
+         right: 1rem;
+         bottom: 1rem;
+         left: 1rem;
+     }
+ }
+ /* Container
+  *
+  * Align the contents of the site above the proper threshold with some margin-fu
+  * with a 25%-wide `.sidebar`.
+  */
+ 
+ .content {
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+ }
+ a {
+     color: #9b111e;
+ }
+ .post-title a:hover {
+     color: #9b111e;
+ }
+ a.read-more {
+     display: block;
+     padding: 20px 0;
+     font-weight: 700;
+ }
+ @media (min-width: 48em) {
+     .content {
+         max-width: 38rem;
+         margin-left: 20rem;
+         margin-right: 2rem;
+     }
+ }
+ @media (min-width: 64em) {
+     .content {
+         margin-left: 22rem;
+         margin-right: 4rem;
+     }
+ }
+ /*
+  * Reverse layout
+  *
+  * Flip the orientation of the page by placing the `.sidebar` on the right.
+  */
+ 
+ @media (min-width: 48em) {
+     .layout-reverse .sidebar {
+         left: auto;
+         right: 0;
+     }
+     .layout-reverse .content {
+         margin-left: 2rem;
+         margin-right: 20rem;
+     }
+ }
+ @media (min-width: 64em) {
+     .layout-reverse .content {
+         margin-left: 4rem;
+         margin-right: 22rem;
+     }
+ }
+ /*
+  * Themes
+  *
+  * As of v1.1, Hyde includes optional themes to color the sidebar and links
+  * within blog posts. To use, add the class of your choosing to the `body`.
+  */
+ /* Base16 (http://chriskempson.github.io/base16/#default) */
+ /* Red */
+ 
+ .theme-base-08 .sidebar {
+     background-color: #ac4142;
+ }
+ .theme-base-08 .content a,
+ .theme-base-08 .related-posts li a:hover {
+     color: #ac4142;
+ }
+ /* Orange */
+ 
+ .theme-base-09 .sidebar {
+     background-color: #d28445;
+ }
+ .theme-base-09 .content a,
+ .theme-base-09 .related-posts li a:hover {
+     color: #d28445;
+ }
+ /* Yellow */
+ 
+ .theme-base-0a .sidebar {
+     background-color: #f4bf75;
+ }
+ .theme-base-0a .content a,
+ .theme-base-0a .related-posts li a:hover {
+     color: #f4bf75;
+ }
+ /* Green */
+ 
+ .theme-base-0b .sidebar {
+     background-color: #90a959;
+ }
+ .theme-base-0b .content a,
+ .theme-base-0b .related-posts li a:hover {
+     color: #90a959;
+ }
+ /* Cyan */
+ 
+ .theme-base-0c .sidebar {
+     background-color: #75b5aa;
+ }
+ .theme-base-0c .content a,
+ .theme-base-0c .related-posts li a:hover {
+     color: #75b5aa;
+ }
+ /* Blue */
+ 
+ .theme-base-0d .sidebar {
+     background-color: #6a9fb5;
+ }
+ .theme-base-0d .content a,
+ .theme-base-0d .related-posts li a:hover {
+     color: #6a9fb5;
+ }
+ /* Magenta */
+ 
+ .theme-base-0e .sidebar {
+     background-color: #aa759f;
+ }
+ .theme-base-0e .content a,
+ .theme-base-0e .related-posts li a:hover {
+     color: #aa759f;
+ }
+ /* Brown */
+ 
+ .theme-base-0f .sidebar {
+     background-color: #8f5536;
+ }
+ .theme-base-0f .content a,
+ .theme-base-0f .related-posts li a:hover {
+     color: #8f5536;
+ }
+ 
