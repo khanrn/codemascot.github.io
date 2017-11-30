@@ -348,6 +348,12 @@
          margin-left: 20rem;
          margin-right: 2rem;
      }
+     .post h2 {
+         margin-bottom: 20px;
+     }
+     .post p {
+         font-size: 0.85em;
+     }
  }
  @media (min-width: 64em) {
      .content {
