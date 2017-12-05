@@ -226,8 +226,11 @@
          border-right: 8px solid;
          border-bottom: 0;
      }
-     .page-title, .post-title {
-         font-size: 2rem !important;
+     .post-title {
+        font-size: 2rem !important;
+     }
+     .page-title {
+        font-size: 1.5rem !important;
      }
      .page p,
      .page li {
