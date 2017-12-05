@@ -28,7 +28,7 @@
   *
   * Update the foundational and global aspects of the page.
   */
- 
+
  html {
      font-family: "PT Sans", Helvetica, Arial, sans-serif;
  }
@@ -48,7 +48,7 @@
   * Flexible banner for housing site name, intro, and "footer" content. Starts
   * out above content in mobile and later moves to the side with wider viewports.
   */
- 
+
  .sidebar {
      text-align: center;
      padding: 2rem 1rem;
@@ -253,7 +253,7 @@
      }
  }
  /* Sidebar links */
- 
+
  .sidebar a {
      color: #9b111e;
  }
@@ -262,7 +262,7 @@
      padding: 0px;
  }
  /* About section */
- 
+
  .sidebar-about h1 {
      margin-top: 0;
      font-family: "Merriweather", serif;
@@ -273,7 +273,7 @@
      padding-top: 4px;
  }
  /* Sidebar nav */
- 
+
  .sidebar-nav {
      margin-bottom: 1rem;
  }
@@ -315,7 +315,7 @@
   * Add the `sidebar-sticky` class to the sidebar's container to affix it the
   * contents to the bottom of the sidebar in tablets and up.
   */
- 
+
  @media (min-width: 48em) {
      .sidebar-sticky {
          position: absolute;
@@ -329,7 +329,7 @@
   * Align the contents of the site above the proper threshold with some margin-fu
   * with a 25%-wide `.sidebar`.
   */
- 
+
  .content {
      padding-top: 4rem;
      padding-bottom: 4rem;
@@ -369,7 +369,7 @@
   *
   * Flip the orientation of the page by placing the `.sidebar` on the right.
   */
- 
+
  @media (min-width: 48em) {
      .layout-reverse .sidebar {
          left: auto;
@@ -386,6 +386,12 @@
          margin-right: 22rem;
      }
  }
+
+ img[src$="center-image"] {
+   display:block;
+   margin: 0 auto;
+ }
+
  /*
   * Themes
   *
@@ -394,7 +400,7 @@
   */
  /* Base16 (http://chriskempson.github.io/base16/#default) */
  /* Red */
- 
+
  .theme-base-08 .sidebar {
      background-color: #ac4142;
  }
@@ -403,7 +409,7 @@
      color: #ac4142;
  }
  /* Orange */
- 
+
  .theme-base-09 .sidebar {
      background-color: #d28445;
  }
@@ -412,7 +418,7 @@
      color: #d28445;
  }
  /* Yellow */
- 
+
  .theme-base-0a .sidebar {
      background-color: #f4bf75;
  }
@@ -421,7 +427,7 @@
      color: #f4bf75;
  }
  /* Green */
- 
+
  .theme-base-0b .sidebar {
      background-color: #90a959;
  }
@@ -430,7 +436,7 @@
      color: #90a959;
  }
  /* Cyan */
- 
+
  .theme-base-0c .sidebar {
      background-color: #75b5aa;
  }
@@ -439,7 +445,7 @@
      color: #75b5aa;
  }
  /* Blue */
- 
+
  .theme-base-0d .sidebar {
      background-color: #6a9fb5;
  }
@@ -448,7 +454,7 @@
      color: #6a9fb5;
  }
  /* Magenta */
- 
+
  .theme-base-0e .sidebar {
      background-color: #aa759f;
  }
@@ -457,7 +463,7 @@
      color: #aa759f;
  }
  /* Brown */
- 
+
  .theme-base-0f .sidebar {
      background-color: #8f5536;
  }
@@ -465,4 +471,3 @@
  .theme-base-0f .related-posts li a:hover {
      color: #8f5536;
  }
- 
