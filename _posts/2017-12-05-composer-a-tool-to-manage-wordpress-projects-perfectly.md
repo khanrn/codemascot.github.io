@@ -26,7 +26,7 @@ categories: WordPress Composer
 ## \# Recommendations and Tools
 
 ### **Bedrock**
-[Bedrock](https://roots.io/bedrock/) is another *WordPress* boilerplate which uses *Composer* as it's dependency manager. It also uses [WordPress](https://github.com/johnpbloch/wordpress) package by *John P. Bloch* and [Dotenv](https://github.com/vlucas/phpdotenv) package by *Vance Lucas*, plus it uses [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt) which forces *WordPress* to use [**Bcrypt**](https://en.wikipedia.org/wiki/Bcrypt) hashing rather than *MD5* based *WordPress* default hashing. It is developed and maintained by [Roots](https://roots.io/).
+[Bedrock](https://roots.io/bedrock/) is a *WordPress* boilerplate which uses *Composer* as it's dependency manager. It also uses [WordPress](https://github.com/johnpbloch/wordpress) package by *John P. Bloch* and [Dotenv](https://github.com/vlucas/phpdotenv) package by *Vance Lucas*, plus it uses [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt) which forces *WordPress* to use [**Bcrypt**](https://en.wikipedia.org/wiki/Bcrypt) hashing rather than *MD5* based *WordPress* default hashing. It is developed and maintained by [Roots](https://roots.io/).
 
 [Bedrock](https://roots.io/bedrock/) directory structure-
 
@@ -52,7 +52,7 @@ categories: WordPress Composer
 
 
 ### **WP Starter**
-[WP Starter](http://wecodemore.github.io/wpstarter/) is *Composer* based *WordPress* bootstrap utility package developed by  [wecodemore](https://github.com/wecodemore), an open source organization formed by a bunch of volunteer *WordPress* veterans. It uses [WordPress](https://github.com/johnpbloch/wordpress) package by *John P. Bloch* and [Dotenv](https://github.com/vlucas/phpdotenv) package by *Vance Lucas*. It's a pretty cool tool to bootstrap *WordPress* project and as it uses [Dotenv](https://github.com/vlucas/phpdotenv) package, we can easily manage DB credentials as well as other settings through a `.env` file. 
+[WP Starter](http://wecodemore.github.io/wpstarter/) is another *Composer* based *WordPress* bootstrap utility package developed by  [wecodemore](https://github.com/wecodemore), an open source organization formed by a bunch of volunteer *WordPress* veterans. It uses [WordPress](https://github.com/johnpbloch/wordpress) package by *John P. Bloch* and [Dotenv](https://github.com/vlucas/phpdotenv) package by *Vance Lucas*. It's a pretty cool tool to bootstrap *WordPress* project and as it uses [Dotenv](https://github.com/vlucas/phpdotenv) package, we can easily manage DB credentials as well as other settings through a `.env` file. 
 
 [WP Starter](http://wecodemore.github.io/wpstarter/) directory structure-
 
