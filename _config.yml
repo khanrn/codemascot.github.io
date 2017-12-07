@@ -24,6 +24,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Custom vars
 version:          2.1.0
