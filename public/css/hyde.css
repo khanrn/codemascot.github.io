@@ -79,7 +79,7 @@
  }
  .categories span:before {
      content: "\f02c";
-     font-family: "Font Awesome\ 5 Brands";
+     font-family: "FontAwesome";
      margin-right: 6px;
  }
  .post-date {
@@ -87,7 +87,7 @@
  }
  .post-date:before {
      content: "\f073";
-     font-family: "Font Awesome\ 5 Brands";
+     font-family: "Font Awesome\ 5 Free";
      padding-right: 5px;
      vertical-align: baseline;
      font-size: .98rem;
