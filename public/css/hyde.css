@@ -22,7 +22,6 @@
  */
 
  @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
- @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
  /*
   * Global resets
   *
@@ -80,7 +79,7 @@
  }
  .categories span:before {
      content: "\f02c";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      margin-right: 6px;
  }
  .post-date {
@@ -88,7 +87,7 @@
  }
  .post-date:before {
      content: "\f073";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 5px;
      vertical-align: baseline;
      font-size: .98rem;
@@ -105,34 +104,43 @@
      color: #9b111e;
      font-size: 1rem !important;
  }
+ ul.profiles li:before {
+    font-size: 1.3rem;
+    vertical-align: middle;
+ }
  li.stk-ex:before {
      content: "\f16c";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 10px;
  }
  li.github:before {
      content: "\f113";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 10px;
  }
  li.packagist:before {
      content: "\f16b";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 9px;
  }
  li.wp-org:before {
      content: "\f19a";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 10px;
+ }
+ li.goodreads:before {
+    font-family: "Font Awesome\ 5 Brands";
+    padding-right: 10px;
+    content: "\f3a8";
  }
  li.lnk-in:before {
      content: "\f08c";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 12px;
  }
  li.twiter:before {
      content: "\f081";
-     font-family: "FontAwesome";
+     font-family: "Font Awesome\ 5 Brands";
      padding-right: 12px;
  }
  p.message {
@@ -171,29 +179,35 @@
      font-size: 0.7rem;
  }
  ul.software-tools li:before {
-     font-family: "FontAwesome";
-     font-size: 1rem;
+     font-size: 1.5rem;
      padding-right: 10px;
      padding-left: 10px;
      color: #9b111e;
      vertical-align: middle;
  }
  ul.software-tools li.os:before {
+    font-family: "Font Awesome\ 5 Brands";
      content: "\f17c";
  }
  ul.software-tools li.ide:before {
-     content: "\f1c9";
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f1c9";
+    padding-right: 15px;
  }
  ul.software-tools li.editor:before {
+    font-family: "FontAwesome";
      content: "\f120";
  }
  ul.software-tools li.vcs:before {
-     content: "\f126";
-     text-align: right;
-     padding-right: 17px;
+    font-family: "FontAwesome";
+    content: "\f126";
+    text-align: right;
+    padding-right: 20px;
  }
  ul.software-tools li.com:before {
-     content: "\f2a0";
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f2a0";
+    padding-right: 15px;
  }
  .pm-tools span {
      padding-right: 10px;
@@ -240,13 +254,13 @@
          margin: 10px 0;
      }
      .pagination-item.older:before {
-         font-family: "FontAwesome";
+         font-family: "Font Awesome\ 5 Brands";
          font-size: 1rem;
          content: "\f0a8";
          padding-right: 10px;
      }
      .pagination-item.newer:after {
-         font-family: "FontAwesome";
+         font-family: "Font Awesome\ 5 Brands";
          font-size: 1rem;
          content: "\f0a9";
          padding-left: 10px;
