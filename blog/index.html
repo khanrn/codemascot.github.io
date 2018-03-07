@@ -17,7 +17,7 @@ permalink: /blog/
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% unless post.topics == empty %}
-    <div class="categories"><span>{{ post.topics }}</span></div>
+	  <div class="categories"><span>{{ post.topics | split: " | " | join: "</span><span>" }}</span></div>
     {% endunless %}
     {{ post.content | strip_html | truncatewords:30 }}
     <a class="read-more" href="{{ post.url }}">Read more...</a>
