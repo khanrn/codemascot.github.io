@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Composer: A tool to manage WordPress projects perfectly"
-topics: WordPress | Composer
+categories: WordPress Composer
 ---
 ![composer-mascot](https://getcomposer.org/img/logo-composer-transparent5.png?style=center-image)
 
