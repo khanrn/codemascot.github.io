@@ -23,7 +23,7 @@ paginate_path:    '/blog/page:num/'
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
-  - octopress-paginate
+  - jekyll-paginate
   - jekyll-sitemap
 
 # Custom vars

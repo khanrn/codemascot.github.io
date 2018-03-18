@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Easy flash messaging in WordPress"
-categories: WordPress Composer
+categories: Generic
+topics: WordPress | Composer
 ---
 
 Flash messaging, a very effective thing to give notifications to the users. This way you can make your UX very effective as well as interactive. Now question is, how can we do this ? Well, there are several ways we can manage to do it. Common approaches are through a `$_GET` variable or with cookies or with `SESSION`. Among them `SESSION` is the most preferred and best solution. Cause with `$_GET` variable the disposal of the notification message is tough. For cookies, it depends on browser and custom user settings can deny the message notification to be stored in the browser. Now, comparing to those two approaches, the `SESSION` approach is far more safe as well as feasible. Yea, it can be a little trouble with some server configurations. But that depends on the server administrator and developer. With a little careful tuning to the server we can easily avoid the issues.

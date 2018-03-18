@@ -65,11 +65,22 @@
      margin: 1rem auto;
      border-radius: 50%;
  }
- .categories {
+ 
+ span.categories {
+     display: inline-block;
+     margin-bottom: 1rem;
+	 color: #9a9a9a;
+ }
+ span.categories:before {
+     content: "\f02c";
+     font-family: "FontAwesome";
+     margin-right: 6px;
+ }
+ .topics {
      display: block;
      margin-bottom: 1rem;
  }
- .categories span {
+ .topics span {
      background: #9b111e;
      color: #fff;
      padding: 2px 10px;
@@ -77,13 +88,14 @@
      margin-right: 5px;
      border-radius: 3px;
  }
- .categories span:before {
-     content: "\f02c";
+ .topics span:before {
+     content: "\f140";
      font-family: "FontAwesome";
      margin-right: 6px;
  }
  .post-date {
      margin-bottom: 0rem;
+	 display: inline-block;
  }
  .post-date:before {
      content: "\f073";

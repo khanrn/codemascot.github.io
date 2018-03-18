@@ -16,8 +16,13 @@ permalink: /blog/
       </a>
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
+
 	{% unless post.categories == empty %}
-	  <div class="categories"><span>{{ post.categories | join: "</span><span>" }}</span></div>
+	  <span class="categories">{{ post.categories | join: ", " }}</span>
+	{% endunless %}
+	
+	{% unless post.topics == empty %}
+	  <div class="topics"><span>{{ post.topics | split: " | " | join: "</span><span>" }}</span></div>
 	{% endunless %}
 	
     {{ post.content | strip_html | truncatewords:30 }}
