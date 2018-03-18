@@ -67,9 +67,10 @@
  }
  
  span.categories {
-     display: inline-block;
-     margin-bottom: 1rem;
-	 color: #9a9a9a;
+	display: inline-block;
+	margin-bottom: 1rem;
+	color: #9a9a9a;
+	padding-left: 10px;
  }
  span.categories:before {
      content: "\f02c";
