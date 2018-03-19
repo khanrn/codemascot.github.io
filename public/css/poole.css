@@ -330,7 +330,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
@@ -428,3 +428,4 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
