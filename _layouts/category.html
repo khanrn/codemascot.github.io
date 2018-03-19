@@ -10,10 +10,12 @@ layout: default
       </a>
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
+	<span class="categories">
 	{% unless post.categories == empty %}
-	  <div class="categories"><span>{{ post.categories | join: "</span><span>" }}</span></div>
+	  {{ post.categories | join: ", " }}
 	{% endunless %}
-	
+	</span>
+
     {{ post.content | strip_html | truncatewords:30 }}
     <a class="read-more" href="{{ post.url }}">Read more...</a>
     </div>
