@@ -16,6 +16,10 @@ layout: default
 	{% endunless %}
 	</span>
 
+	{% unless page.topics == empty %}
+	  <div class="topics"><span>{{ page.topics | split: " | " | join: "</span><span>" }}</span></div>
+	{% endunless %}
+
     {{ post.content | strip_html | truncatewords:30 }}
     <a class="read-more" href="{{ post.url }}">Read more...</a>
     </div>
