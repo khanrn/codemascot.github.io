@@ -62,7 +62,7 @@ Write `CSS` style as you want to style the message.
 
 > **If you are using prcedural approach then you may need to use PHP super global to store the instance of the class.**
 > 
-> ```
+> ```php
 > $GLOBALS['FlashMessage'] = $flash_message
 > ```
 > 
