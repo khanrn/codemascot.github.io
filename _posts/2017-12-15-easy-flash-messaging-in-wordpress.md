@@ -17,7 +17,7 @@ However, for my personal usages I’ve built a Composer package to handle flash 
 
 ## Installation
 The best way to use this package is through Composer:
-```php
+```
 $ composer require rnaby/wp-flash-message
 ```
 ## Usage
