@@ -16,13 +16,10 @@ However, for my personal usages I’ve built a Composer package to handle flash 
 - WordPress >= 4.0 (Lowest Tested Version)
 
 ## Installation
-
 The best way to use this package is through Composer:
-
-```BASH
+```php
 $ composer require rnaby/wp-flash-message
 ```
-
 ## Usage
 #### Step 1
 Instantiate the `FlashMessage` class object like below-
