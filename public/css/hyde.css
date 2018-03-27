@@ -21,7 +21,8 @@
  * Themes
  */
 
- @import url(dracula.css);
+/*  @import url(dracula.css); */
+ @import url(solarized-light.css);
  @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
  /*
   * Global resets
