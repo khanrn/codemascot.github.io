@@ -243,6 +243,14 @@
  .page li {
      font-family: "Lato" !important;
  }
+ ul.contributions {
+    list-style: square;
+    padding: 10px 20px;
+ }
+
+ ul.contributions li {
+    padding: 5px 0;
+ }
  @media (min-width: 48em) {
      .sidebar {
          position: fixed;
