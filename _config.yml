@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        /:year/:month/:day/:title
 
 # Setup
-title:            TheDramatist
+title:            CodeMascot
 tagline:          'Web Programmer'
 description:      'A self-taught guy who writes poetry with code. Love to solve problems. StackExchange and GitHub contributor. Plus <a target="_blank" href="http://www.marssociety.org/">TheMarsSociety</a> volunteer.'
 url:              http://www.thedramatist.me
