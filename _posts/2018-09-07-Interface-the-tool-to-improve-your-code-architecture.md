@@ -10,12 +10,12 @@ In short, interface is a contract. Say, your boss has sent an email to you sayin
 
 ```
 +-- Predefined Properties
-|	+-- Age: Mid Age
-|	+-- Dress: Blue
-|	+-- Cap: Orange
+	+-- Age: Mid Age
+	+-- Dress: Blue
+	+-- Cap: Orange
 +- Predefined Method(s)
-|	+-- Maintenance Van
-|	+-- Tool Box
+	+-- Maintenance Van
+	+-- Tool Box
 ```
 
 Now, replace your boss with “The_Boss” class, the man with **The_Helper** class. Think about the properties of as the properties of **The_Helper** class and methods as the methods of **TheHelper** class. If all the above things has been set the described way, then the email will be the interface here. Cause the email is the contract between your boss and you that which kind of person from your boss you will allow in the work zone. If a person doesn’t come with a maintenance van or tool box and says to you that your boss sent him, you will not allow him in the work zone, cause **the email** AKA **the contract** AKA **the interface** has stated different properties.
@@ -29,16 +29,16 @@ Additionally, the helper man can come exactly as he has been described in the em
  */
 class The_Boss {
 
-	public $instance_of_the_helper;
-	public $instance_of_you;
+	public $helper;
+	public $you;
 
 	public function __construct() {
-		$this->instance_of_the_helper = new The_Helper();
-		$this->instance_of_you = new You( $this->instance_of_the_helper );
+		$this->helper = new The_Helper();
+		$this->you = new You( $helper );
 	}
 
 	public function init() {
-		$this->instance_of_you->do_something();
+		$this->you->do_something();
 	}
 }
 
@@ -91,7 +91,8 @@ class The_Helper implements \The_Email_From_Your_Boss {
  * Class You
  */
 class You {
-	// You will only allow a class which implements "The_Email_From_Your_Friend"
+	// You will only allow a class which implements
+	// "The_Email_From_Your_Boss" interface
 	public function __construct( \The_Email_From_Your_Boss $the_helper ) {
 		// Do something with The_Helper class instance.
 	}
