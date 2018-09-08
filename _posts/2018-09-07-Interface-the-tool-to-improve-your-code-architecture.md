@@ -7,6 +7,7 @@ topics: CS Concepts
 
 In short, interface is a contract. Say, your boss has sent an email to you saying that he’ll send a man tomorrow to help you decorating the office. Your job is to use the man’s skill to renovate your office. In the email, your boss has described that a blue dressed person with an orange color cap will be at the office tomorrow. He will come in a maintenance van and with a tool box. Now if we put the man’s above description in below categories then it’ll be like-
 
+
 ```
 Predefined Properties
     Age: Mid Age
