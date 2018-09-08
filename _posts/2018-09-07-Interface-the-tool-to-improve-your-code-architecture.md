@@ -24,42 +24,43 @@ Now, replace your boss with “The_Boss” class, the man with **The_Helper** cl
 Additionally, the helper man can come exactly as he has been described in the email, but can bring an extra tool and an extra car or say with a pink cap or red dress. Wouldn’t you allow him to the work zone? You will definitely allow him to the workplace as he satisfies all the basic conditions of the email. He can bring some extra tools if he thinks they are necessary. So, thinking this way these extra tools can be compared to some extra methods which aren’t defined in the interface.
 
 ```
+<?php
 /**
  * Class The_Boss
  */
 class The_Boss {
 
-	public $helper;
-	public $you;
+    public $helper;
+    public $you;
 
-	public function __construct() {
-		$this->helper = new The_Helper();
-		$this->you = new You( $helper );
-	}
+    public function __construct() {
+        $this->helper = new The_Helper();
+        $this->you = new You( $helper );
+    }
 
-	public function init() {
-		$this->you->do_something();
-	}
+    public function init() {
+        $this->you->do_something();
+    }
 }
 
 /**
  * Interface The_Email_From_Your_Boss
  */
 interface The_Email_From_Your_Boss {
-	// Properties of the Helper
-	// public $age;
-	// public $dress;
-	// public $cap;
+    // Properties of the Helper
+    // public $age;
+    // public $dress;
+    // public $cap;
 
-	// As PHP doesn't support declaring properties
-	// to the interfaces I commented those above properties.
-	// But kept those cause some other languages
-	// like C# allows authors to declare
-	// the properties in the interface.
+    // As PHP doesn't support declaring properties
+    // to the interfaces I commented those above properties.
+    // But kept those cause some other languages
+    // like C# allows authors to declare
+    // the properties in the interface.
 
-	// Methods, the Helper must have.
-	public function maintenance_van();
-	public function tool_box();
+    // Methods, the Helper must have.
+    public function maintenance_van();
+    public function tool_box();
 
 }
 
@@ -67,39 +68,39 @@ interface The_Email_From_Your_Boss {
  * Class The_Helper
  */
 class The_Helper implements \The_Email_From_Your_Boss {
-	// Properties of the Helper
-	// public $age     = 'Mid Age';
-	// public $dress   = 'Blue';
-	// public $cap     = 'Orange';
+    // Properties of the Helper
+    // public $age     = 'Mid Age';
+    // public $dress   = 'Blue';
+    // public $cap     = 'Orange';
 
-	// As PHP doesn't support declaring properties
-	// to the interfaces I commented those above properties.
-	// But kept those cause some other languages
-	// like C# allows authors to declare
-	// the properties in the interface.
+    // As PHP doesn't support declaring properties
+    // to the interfaces I commented those above properties.
+    // But kept those cause some other languages
+    // like C# allows authors to declare
+    // the properties in the interface.
 
-	// Methods of the Helper
-	public function maintenance_van() {
-		// Method functionality here
-	}
-	public function tool_box() {
-		// Method functionality here
-	}
+    // Methods of the Helper
+    public function maintenance_van() {
+        // Method functionality here
+    }
+    public function tool_box() {
+        // Method functionality here
+    }
 }
 
 /**
  * Class You
  */
 class You {
-	// You will only allow a class which implements
-	// "The_Email_From_Your_Boss" interface
-	public function __construct( \The_Email_From_Your_Boss $the_helper ) {
-		// Do something with The_Helper class instance.
-	}
+    // You will only allow a class which implements
+    // "The_Email_From_Your_Boss" interface
+    public function __construct( \The_Email_From_Your_Boss $the_helper ) {
+        // Do something with The_Helper class instance.
+    }
 
-	public function do_something() {
-		// Something The_Helper class do.
-	}
+    public function do_something() {
+        // Something The_Helper class do.
+    }
 }
 ```
 
