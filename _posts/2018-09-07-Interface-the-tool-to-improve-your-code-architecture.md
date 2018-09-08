@@ -6,16 +6,16 @@ topics: CS Concepts
 ---
 
 ## \# The Concept of Interface
-In short, interface is a contract. Say, your boss has sent an email to you saying that he’ll send a man tomorrow to help you decorating the office. Your job is to use the man’s skill to renovate your office. In the email, your boss has described that a blue dressed person with an orange color cap will be at the office tomorrow. He will come in a maintenance van and with a tool box. Now if we put the man’s above description in below categories then it’ll be like-
+	In short, interface is a contract. Say, your boss has sent an email to you saying that he’ll send a man tomorrow to help you decorating the office. Your job is to use the man’s skill to renovate your office. In the email, your boss has described that a blue dressed person with an orange color cap will be at the office tomorrow. He will come in a maintenance van and with a tool box. Now if we put the man’s above description in below categories then it’ll be like-
 
 ```
-+-- Predefined Properties
-	+-- Age: Mid Age
-	+-- Dress: Blue
-	+-- Cap: Orange
-+- Predefined Method(s)
-	+-- Maintenance Van
-	+-- Tool Box
+Predefined Properties
+    Age: Mid Age
+    Dress: Blue
+    Cap: Orange
+Predefined Method(s)
+    Maintenance Van
+    Tool Box
 ```
 
 Now, replace your boss with “The_Boss” class, the man with **The_Helper** class. Think about the properties of as the properties of **The_Helper** class and methods as the methods of **TheHelper** class. If all the above things has been set the described way, then the email will be the interface here. Cause the email is the contract between your boss and you that which kind of person from your boss you will allow in the work zone. If a person doesn’t come with a maintenance van or tool box and says to you that your boss sent him, you will not allow him in the work zone, cause **the email** AKA **the contract** AKA **the interface** has stated different properties.
