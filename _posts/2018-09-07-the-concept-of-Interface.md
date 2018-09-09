@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interface, the tool to improve your code architecture"
+title: "The concept of Interface"
 categories: Generic
 topics: CS Concepts
 ---
