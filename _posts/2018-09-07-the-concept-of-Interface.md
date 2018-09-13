@@ -23,7 +23,7 @@ Now, replace your boss with **The_Boss** class, the man with **The_Helper** clas
 ## \# Extra Methods
 Additionally, the helper man can come exactly as he has been described in the email, but can bring an extra tool and an extra car or say with a pink cap or red dress. Wouldn’t you allow him to the work zone? You will definitely allow him to the workplace as he satisfies all the basic conditions of the email. He can bring some extra tools if he thinks they are necessary. So, thinking this way these extra tools can be compared to some extra methods which aren’t defined in the interface.
 
-```
+```php
 <?php
 /**
  * Class The_Boss
