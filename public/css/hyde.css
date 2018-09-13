@@ -57,6 +57,7 @@
      width: 60%;
      margin: 1rem auto;
      border-radius: 50%;
+     border-color: transparent;
  }
  
  span.categories {
@@ -282,7 +283,7 @@
  /* Sidebar links */
 
  .sidebar a {
-     color: #6272A4;
+     color: #FF5555;
  }
  .sidebar-about h1 a {
      color: #e8e7e7;
@@ -368,7 +369,7 @@
      padding-bottom: 4rem;
  }
  a {
-     color: #6272A4;
+     color: #FF5555;
  }
  .post-title a:hover {
      color: #FF5555;
