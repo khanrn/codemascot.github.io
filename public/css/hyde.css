@@ -1,14 +1,5 @@
 /**
-
-████████╗██╗  ██╗███████╗    ██████╗ ██████╗  █████╗ ███╗   ███╗ █████╗ ████████╗██╗███████╗████████╗
-╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██╔══██╗██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝██║██╔════╝╚══██╔══╝
-   ██║   ███████║█████╗      ██║  ██║██████╔╝███████║██╔████╔██║███████║   ██║   ██║███████╗   ██║
-   ██║   ██╔══██║██╔══╝      ██║  ██║██╔══██╗██╔══██║██║╚██╔╝██║██╔══██║   ██║   ██║╚════██║   ██║
-   ██║   ██║  ██║███████╗    ██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║   ██║   ██║███████║   ██║
-   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚══════╝   ╚═╝
-
   Forked form https://github.com/poole/hyde.
-
 */
 
 /*
@@ -53,8 +44,8 @@
  .sidebar {
      text-align: center;
      padding: 2rem 1rem;
-     color: #9b111e;
-     background-color: #e0e0e0eb;
+     color: #d2cece;
+     background-color: #282A36;
      border-bottom: 8px solid;
  }
  .lead {
@@ -84,7 +75,7 @@
      margin-bottom: 1rem;
  }
  .topics span {
-     background: #9b111e;
+     background: #FF5555;
      color: #fff;
      padding: 2px 10px;
      font-size: 14px;
@@ -259,7 +250,7 @@
          bottom: 0;
          width: 18rem;
          text-align: left;
-         border-right: 8px solid;
+         border-right: 0px solid;
          border-bottom: 0;
      }
      .post-title {
@@ -291,11 +282,14 @@
  /* Sidebar links */
 
  .sidebar a {
-     color: #9b111e;
+     color: #6272A4;
  }
  .sidebar-about h1 a {
-     color: #fff;
+     color: #e8e7e7;
      padding: 0px;
+ }
+ .sidebar-about h1 a:hover {
+     text-decoration:none;
  }
  /* About section */
 
@@ -303,7 +297,7 @@
      margin-top: 0;
      font-family: "Merriweather", serif;
      font-size: 1.2rem;
-     background: #9b111e;
+     background: #FF5555;
      border-radius: 3px;
      text-align: center;
      padding-top: 4px;
@@ -316,26 +310,29 @@
  .sidebar-nav-item {
      display: block;
      line-height: 1.75;
-     border: 3px solid #9b111e;
+     border: 3px solid #44475A;
      padding: 0 10px;
      border-radius: 3px;
      margin-bottom: 10px;
      font-weight: bold;
      font-size: 0.8rem;
+     background: #44475A;
  }
  a.sidebar-nav-item:hover,
  a.sidebar-nav-item:focus {
      font-weight: 700;
-     background: #9b111e;
+     background: #FF5555;
      color: #ffff;
      text-decoration: none;
      transition: 0.5s all;
+     border-color: #FF5555;
  }
  .sidebar-nav-item.active {
      font-weight: bold;
      pointer-events: none;
      color: #fff;
-     background: #9b111e;
+     background: #FF5555;
+     border-color: #FF5555;
  }
  .sidebar-icons ul {
      list-style: none;
@@ -371,10 +368,10 @@
      padding-bottom: 4rem;
  }
  a {
-     color: #9b111e;
+     color: #6272A4;
  }
  .post-title a:hover {
-     color: #9b111e;
+     color: #FF5555;
  }
  a.read-more {
      display: block;
@@ -383,7 +380,7 @@
  }
  @media (min-width: 48em) {
      .content {
-         max-width: 38rem;
+         max-width: 50rem;
          margin-left: 20rem;
          margin-right: 2rem;
      }

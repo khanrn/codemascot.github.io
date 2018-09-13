@@ -59,10 +59,10 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #FFFFFF;
+  background-color: #44475A;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -338,7 +338,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #FF5555;
 }
 .page-title,
 .post-title {
