@@ -181,7 +181,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
-  border: 2px solid;
+  border: 5px solid #282a36;
 }
 
 /* Gist via GitHub Pages */
