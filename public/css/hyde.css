@@ -46,7 +46,6 @@
      padding: 2rem 1rem;
      color: #d2cece;
      background-color: #282A36;
-     border-bottom: 8px solid;
  }
  .lead {
      font-size: 0.9rem;
@@ -242,6 +241,10 @@
 
  ul.contributions li {
     padding: 5px 0;
+    color:#8be9fd;
+ }
+ ul.contributions li a {
+    color: #8be9fd;
  }
  @media (min-width: 48em) {
      .sidebar {
