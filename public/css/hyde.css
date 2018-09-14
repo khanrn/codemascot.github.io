@@ -108,7 +108,7 @@
  }
  ul.profiles li {
      list-style: none;
-     color: #9b111e;
+     color: #8be9fd;
      font-size: 1rem !important;
  }
  ul.profiles li:before {
@@ -116,7 +116,7 @@
     vertical-align: middle;
  }
  li.stk-ex:before {
-     content: "\f16c";
+     content: "\f18d";
      font-family: "Font Awesome\ 5 Brands";
      padding-right: 10px;
  }
@@ -176,10 +176,10 @@
      padding-left: 25px;
  }
  ul.software-tools li {
-     color: #9b111e;
+     color: #8be9fd;
  }
  ul.software-tools li span {
-     background: #9b111e;
+     background: #FF5555;
      color: #fff;
      padding: 1px 7px 4px;
      border-radius: 4px;
@@ -189,7 +189,7 @@
      font-size: 1.5rem;
      padding-right: 10px;
      padding-left: 10px;
-     color: #9b111e;
+     color: #8be9fd;
      vertical-align: middle;
  }
  ul.software-tools li.os:before {
@@ -220,14 +220,14 @@
      padding-right: 10px;
      font-size: 0.8rem;
      font-weight: 500;
-     color: #9b111e;
+     color: #8be9fd;
  }
  .pm-tools span:before {
      content: "\f046";
      font-family: "FontAwesome";
      font-size: 0.8rem;
      padding-right: 5px;
-     color: #9b111e;
+     color: #8be9fd;
  }
  .page-title, .post-title {
  }
