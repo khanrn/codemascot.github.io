@@ -53,9 +53,9 @@
      line-height: 1rem;
  }
  .khan-img img {
-     width: 85%;
+     width: 100%;
      margin: 1rem auto;
-     border-radius: 50%;
+     border-radius: 2%;
      border-color: transparent;
  }
  
