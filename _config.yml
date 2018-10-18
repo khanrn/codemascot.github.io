@@ -9,7 +9,7 @@ permalink:        /:year/:month/:day/:title
 title:            CodeMascot
 tagline:          'Web Programmer'
 description:      'A self-taught guy who writes poetry with code. Love to solve problems. StackExchange and GitHub contributor. Plus <a target="_blank" href="http://www.marssociety.org/">TheMarsSociety</a> volunteer.'
-url:              http://www.codemascot.com
+url:              https://www.codemascot.com
 baseurl:          /
 google_verify:    at9Eb_8UWPXn39jSyjV4IJwm6szkk6SIfJosUVX_xlo
 
