@@ -7,15 +7,15 @@ permalink:        /:year/:month/:day/:title
 
 # Setup
 title:            CodeMascot
-tagline:          'Web Programmer'
-description:      'A self-taught guy who writes poetry with code. Love to solve problems. StackExchange and GitHub contributor. Plus <a target="_blank" href="http://www.marssociety.org/">TheMarsSociety</a> volunteer.'
+tagline:          'A self taught reader who loves to solve problems'
+description:      'A self-taught reader who loves to solve problems. Philosophy, Non-Fiction and History enthusiastic. Contributed to several open source softwares. Very keen to learn new things.'
 url:              https://www.codemascot.com
 baseurl:          /
 google_verify:    at9Eb_8UWPXn39jSyjV4IJwm6szkk6SIfJosUVX_xlo
 
 author:
-  name:           'Khan M Rashedun-Naby'
-  url:            https://www.linkedin.com/in/rnaby/
+  name:           'Khan Mohammad R.'
+  url:            https://www.linkedin.com/in/codemascot/
 
 paginate:         5
 paginate_path:    '/page:num/'
@@ -40,4 +40,4 @@ plugins:
 version:          2.1.0
 
 github:
-  repo:           https://github.com/rnaby
+  repo:           https://github.com/codemascot
