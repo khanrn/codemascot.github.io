@@ -181,8 +181,8 @@
      background: #FF5555;
      color: #fff;
      padding: 1px 7px 4px;
-     border-radius: 4px;
-     font-size: 0.7rem;
+     border-radius: 2px;
+     font-size: 0.9rem;
  }
  ul.software-tools li:before {
      font-size: 1.5rem;
@@ -217,7 +217,7 @@
  }
  .pm-tools span {
      padding-right: 10px;
-     font-size: 0.8rem;
+     font-size: 1rem;
      font-weight: 500;
      color: #8be9fd;
  }
