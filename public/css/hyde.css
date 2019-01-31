@@ -54,6 +54,7 @@
      font-style: italic;
      margin: 1rem 0;
      width: 97%;
+	 text-align: left;
  }
  .lead span {
      display: block;
