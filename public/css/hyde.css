@@ -116,7 +116,7 @@
  }
  ul.profiles li {
      list-style: none;
-     color: #8be9fd;
+     color: #D9B08C;
      font-size: 1rem !important;
  }
  ul.profiles li:before {
@@ -184,7 +184,7 @@
      padding-left: 25px;
  }
  ul.software-tools li {
-     color: #8be9fd;
+     color: #D9B08C;
  }
  ul.software-tools li span {
      background: #E27D60;
@@ -197,7 +197,7 @@
      font-size: 1.5rem;
      padding-right: 10px;
      padding-left: 10px;
-     color: #8be9fd;
+     color: #D9B08C;
      vertical-align: middle;
  }
  ul.software-tools li.os:before {
@@ -228,14 +228,14 @@
      padding-right: 10px;
      font-size: 1rem;
      font-weight: 500;
-     color: #8be9fd;
+     color: #D9B08C;
  }
  .pm-tools span:before {
      content: "\f046";
      font-family: "FontAwesome";
      font-size: 0.8rem;
      padding-right: 5px;
-     color: #8be9fd;
+     color: #D9B08C;
  }
  .page-title, .post-title {
  }
@@ -250,10 +250,10 @@
 
  ul.contributions li {
     padding: 5px 0;
-    color:#8be9fd;
+    color:#D9B08C;
  }
  ul.contributions li a {
-    color: #8be9fd;
+    color: #D9B08C;
  }
  @media (min-width: 48em) {
      .sidebar {
