@@ -48,9 +48,12 @@
      background-color: #25274D;
  }
  .lead {
-     font-size: 0.9rem;
-     font-weight: 300;
+     font-size: 1rem;
+     font-weight: 700;
      line-height: 1rem;
+     font-style: italic;
+     margin: 1rem 0;
+     width: 97%;
  }
  .khan-img img {
      width: 100%;
