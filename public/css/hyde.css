@@ -45,7 +45,7 @@
      text-align: center;
      padding: 2rem 1rem;
      color: #d2cece;
-     background-color: #25274D;
+     background-color: #116466;
  }
  .lead {
      font-size: 1rem;
@@ -325,13 +325,13 @@
  .sidebar-nav-item {
      display: block;
      line-height: 1.75;
-     border: 3px solid #44475A;
+     border: 3px solid #2C3531;
      padding: 0 10px;
      border-radius: 0;
      margin-bottom: 10px;
      font-weight: bold;
      font-size: 0.8rem;
-     background: #44475A;
+     background: #2C3531;
      text-transform: uppercase;
  }
  a.sidebar-nav-item:hover,
