@@ -22,7 +22,7 @@
   */
 
  html {
-     font-family: "PT Sans", Helvetica, Arial, sans-serif;
+     font-family: "Carlito", Helvetica, Arial, sans-serif;
  }
  @media (min-width: 48em) {
      html {
@@ -55,7 +55,6 @@
  .khan-img img {
      width: 100%;
      margin: 1rem auto;
-     border-radius: 2%;
      border-color: transparent;
  }
  
@@ -64,7 +63,8 @@
 	margin-bottom: 1rem;
 	color: #9a9a9a;
 	padding-left: 10px;
- }
+	text-transform: uppercase;
+	}
  span.categories:before {
      content: "\f02c";
      font-family: "FontAwesome";
@@ -81,6 +81,7 @@
      font-size: 14px;
      margin-right: 5px;
      border-radius: 3px;
+     text-transform: uppercase;
  }
  .topics span:before {
      content: "\f140";
@@ -89,7 +90,8 @@
  }
  .post-date {
      margin-bottom: 0rem;
-	 display: inline-block;
+     display: inline-block;
+     text-transform: uppercase;
  }
  .post-date:before {
      content: "\f073";
@@ -258,8 +260,10 @@
          border-bottom: 0;
      }
      .post-title {
-        font-size: 1.7rem !important;
+        font-size: 1.4rem !important;
      }
+
+
      .page-title {
         font-size: 1.5rem !important;
      }
@@ -299,10 +303,10 @@
 
  .sidebar-about h1 {
      margin-top: 0;
-     font-family: "Merriweather", serif;
+     font-family: "Carlito", serif;
      font-size: 1.2rem;
      background: #FF5555;
-     border-radius: 3px;
+     border-radius: 0;
      text-align: center;
      padding-top: 4px;
  }
@@ -316,11 +320,12 @@
      line-height: 1.75;
      border: 3px solid #44475A;
      padding: 0 10px;
-     border-radius: 3px;
+     border-radius: 0;
      margin-bottom: 10px;
      font-weight: bold;
      font-size: 0.8rem;
      background: #44475A;
+     text-transform: uppercase;
  }
  a.sidebar-nav-item:hover,
  a.sidebar-nav-item:focus {
@@ -381,10 +386,12 @@
      display: block;
      padding: 5px 0;
      font-weight: 700;
+     text-transform: lowercase;
+     font-style: italic;
  }
  @media (min-width: 48em) {
      .content {
-         max-width: 50rem;
+         max-width: 33rem;
          margin-left: 20rem;
          margin-right: 2rem;
      }
