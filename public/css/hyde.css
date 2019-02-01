@@ -231,14 +231,12 @@
  }
  .pm-tools span {
      padding-right: 10px;
-     font-size: 1.2rem;
-     font-weight: 500;
+     font-weight: 700;
      color: #D9B08C;
  }
  .pm-tools span:before {
      content: "\f046";
      font-family: "FontAwesome";
-     font-size: 0.8rem;
      padding-right: 5px;
      color: #D9B08C;
  }
@@ -295,6 +293,13 @@
       ul.profiles li a {
          font-size: 1.3rem;
      }
+ .pm-tools span {
+     font-size: 1.2rem;
+     font-weight: 700;
+ }
+ .pm-tools span:before {
+     font-size: 1.1rem;
+ }
  }
  /* Sidebar links */
 
