@@ -57,6 +57,9 @@
  }
  .lead span {
      display: block;
+     font-style: italic;
+     padding-top: 5px;
+	 font-weight: 100;
  }
  .khan-img img {
      width: 100%;
@@ -401,6 +404,10 @@
      .post p {
          font-size: 1.2em;
      }
+
+     .page, .post {
+        font-size: 1.2rem;
+      }
  }
  @media (min-width: 64em) {
      .content {
