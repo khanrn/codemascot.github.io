@@ -127,6 +127,10 @@
     font-size: 1.5rem;
     vertical-align: middle;
  }
+ ul.profiles li a {
+    font-weight:700;
+    font-size: 1.1rem;
+}
  li.stk-ex:before {
      content: "\f18d";
      font-family: "Font Awesome\ 5 Brands";
@@ -191,10 +195,8 @@
      color: #D9B08C;
  }
  ul.software-tools li span {
-     background: #E27D60;
-     color: #fff;
-     padding: 1px 7px 4px;
-     font-size: 1.1rem;
+     color: #D9B08C;
+     font-weight: 700;
  }
  ul.software-tools li:before {
      font-size: 1.5rem;
@@ -269,7 +271,7 @@
 
 
      .page-title {
-        font-size: 1.5rem !important;
+        font-size: 1.3rem !important;
      }
      .page p,
      .page li {
@@ -289,6 +291,9 @@
          font-size: 1rem;
          content: "\f0a9";
          padding-left: 10px;
+     }
+      ul.profiles li a {
+         font-size: 1.3rem;
      }
  }
  /* Sidebar links */
@@ -351,8 +356,8 @@
  }
  .sidebar-icons ul li {
      display: inline-block;
-     padding-right: 9px;
-     font-size: 25px;
+     padding-right: 10px;
+     font-size: 1.9rem;
  }
  /* Sticky sidebar
   *
