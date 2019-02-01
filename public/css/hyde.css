@@ -14,7 +14,7 @@
 
 @import url(dracula.css);
 /* @import url(solarized-light.css); */
- @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption|Merriweather|Lato|Gentium+Basic');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
  /*
   * Global resets
   *
@@ -22,7 +22,7 @@
   */
 
  html {
-     font-family: "Carlito", Helvetica, Arial, sans-serif;
+     font-family: "Barlow Semi Condensed", Helvetica, Arial, sans-serif;
  }
  @media (min-width: 48em) {
      html {
@@ -31,7 +31,7 @@
  }
  @media (min-width: 58em) {
      html {
-         font-size: 17px;
+         font-size: 1rem;
      }
  }
  /*
@@ -51,10 +51,9 @@
      font-size: 1rem;
      font-weight: 700;
      line-height: 1rem;
-     font-style: italic;
      margin: 1rem 0;
      width: 97%;
-	 text-align: left;
+     text-align: left;
  }
  .lead span {
      display: block;
@@ -71,6 +70,7 @@
 	color: #D9B08C;
 	padding-left: 10px;
 	text-transform: uppercase;
+	font-weight: bolder;
 	}
  span.categories:before {
      content: "\f02c";
@@ -84,7 +84,7 @@
  .topics span {
      background: #E27D60;
      color: #fff;
-     padding: 5px 10px 3px;
+     padding: 1px 10px 2px;
      font-size: 14px;
      margin-right: 5px;
      border-radius: 0;
@@ -99,6 +99,7 @@
      margin-bottom: 0rem;
      display: inline-block;
      text-transform: uppercase;
+     font-weight: bolder;
  }
  .post-date:before {
      content: "\f073";
@@ -310,12 +311,11 @@
 
  .sidebar-about h1 {
      margin-top: 0;
-     font-family: "Carlito", serif;
      font-size: 1.2rem;
      background: #E27D60;
      border-radius: 0;
      text-align: center;
-     padding-top: 4px;
+     padding-top: 0px;
  }
  /* Sidebar nav */
 
@@ -330,7 +330,7 @@
      border-radius: 0;
      margin-bottom: 10px;
      font-weight: bold;
-     font-size: 0.8rem;
+     font-size: 1rem;
      background: #2C3531;
      text-transform: uppercase;
  }
@@ -369,7 +369,7 @@
      .sidebar-sticky {
          position: absolute;
          right: 1rem;
-         bottom: 1rem;
+         top: 1rem;
          left: 1rem;
      }
  }
@@ -394,7 +394,6 @@
      padding: 5px 0;
      font-weight: 700;
      text-transform: lowercase;
-     font-style: italic;
  }
  @media (min-width: 48em) {
      .content {
