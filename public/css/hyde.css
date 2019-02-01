@@ -118,10 +118,10 @@
  ul.profiles li {
      list-style: none;
      color: #D9B08C;
-     font-size: 1rem !important;
+     font-size: 1.2rem;
  }
  ul.profiles li:before {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     vertical-align: middle;
  }
  li.stk-ex:before {
@@ -227,7 +227,7 @@
  }
  .pm-tools span {
      padding-right: 10px;
-     font-size: 1rem;
+     font-size: 1.2rem;
      font-weight: 500;
      color: #D9B08C;
  }
@@ -242,7 +242,6 @@
  }
  .page p,
  .page li {
-     font-family: "Lato" !important;
  }
  ul.contributions {
     list-style: square;
@@ -277,7 +276,7 @@
      }
      .page p,
      .page li {
-         font-size: 15px;
+         font-size: 1.2rem;
      }
      .sidebar nav .sidebar-nav-item {
          margin: 10px 0;
