@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn to index from 0(in C or C based languages), it helps"
+title: "Learn to index from 0, it helps"
 categories: Generic
 topics: CS Concepts
 ---
