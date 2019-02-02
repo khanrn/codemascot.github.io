@@ -44,7 +44,6 @@
  .sidebar {
      text-align: center;
      padding: 2rem 1rem;
-     color: #d2cece;
      background-color: #116466;
  }
  .lead {
@@ -61,7 +60,7 @@
      padding-top: 1px;
  }
  .khan-img img {
-     width: 100%;
+     width: 50%;
      margin: 1rem auto;
      border-color: transparent;
  }
