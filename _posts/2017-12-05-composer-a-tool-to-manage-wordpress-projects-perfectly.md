@@ -4,9 +4,9 @@ title:  "Composer: A tool to manage WordPress projects perfectly"
 categories: Generic
 topics: WordPress | Composer
 ---
-![composer-mascot](https://getcomposer.org/img/logo-composer-transparent5.png?style=center-image)
 
 [Composer](https://getcomposer.org/), released first in 2012, is one of the biggest thing ever happened to *PHP*. Most of the libraries or frameworks in *PHP* are now-a-days using this *Composer* to manage themselves as well as their dependencies. Good news is, we also can use this *Composer* with *WordPress* to manage our projects. I know, some of you folks would say that usage of *Composer* will make the projects bloated and unnecessary complicated, but I would oppose on this. I would rather say if we can understand concept and mechanism of *Composer*, it could be the best tool to use for our every next *WordPress* project.
+![composer-mascot](https://getcomposer.org/img/logo-composer-transparent5.png?style=center-image)
 
 ## \# Why We Need Composer
 
