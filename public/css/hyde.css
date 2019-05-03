@@ -397,15 +397,17 @@
  }
  @media (min-width: 48em) {
      .content {
-         max-width: 40rem;
+         max-width: 50rem;
          margin-left: 20rem;
          margin-right: 2rem;
      }
      .post h2 {
          margin-bottom: 5px;
+         font-size: 1.2rem;
+         
      }
      .post p {
-         font-size: 1em;
+         font-size: 1.2rem;
      }
 
      .page, .post {
@@ -416,6 +418,11 @@
      .content {
          margin-left: 22rem;
          margin-right: 4rem;
+     }
+     .post h2 {
+         margin-bottom: 5px;
+         font-size: 1.3rem;
+         
      }
  }
  /*
