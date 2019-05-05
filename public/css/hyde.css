@@ -106,6 +106,9 @@
      vertical-align: baseline;
      font-size: 1.2rem;
  }
+.post h2 {
+	color: #d89455;
+}
  .sidebar nav .sidebar-nav-item {
      width: 50%;
      margin: 10px auto;
