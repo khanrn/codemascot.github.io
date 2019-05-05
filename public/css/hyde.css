@@ -22,7 +22,7 @@
   */
 
  html {
-     font-family: "Lato", Helvetica, Arial, sans-serif;
+     font-family: "Fira Mono", Helvetica, Arial, sans-serif;
  }
  @media (min-width: 48em) {
      html {
