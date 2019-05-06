@@ -39,7 +39,7 @@ Now it's time for you folks to have a look at a old diagram provided by the Word
 
 Here it simply is showing you in what sequence the template will be loaded if any of them is not found. Helpful, but not totally clear. Wait a bit, after the full dissection the whole thing will be cleared.
 
-## \# Here The Real Disection Begins
+## \# Here The Real Dissection Begins
 
 However, analyzing all of these template loading sequences aren't possible here in a single blog post. So, here we'll discuss only the author template loading sequence as it comes first in the diagram. You folks can use this dissection model for analyzing other template loading sequences as well.
 
