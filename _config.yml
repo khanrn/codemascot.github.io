@@ -9,8 +9,8 @@ permalink:        /:year/:month/:day/:title
 title:            CodeMascot
 tagline:          'A self taught reader who loves to solve problems'
 description:      'A self-taught reader who loves to solve problems. Philosophy, Non-Fiction and History enthusiastic. Contributed to several open source softwares. Very keen to learn new things.'
-url:              https://www.codemascot.com
-baseurl:          https://www.codemascot.com
+url:              https://www.codemascot.com/
+baseurl:          https://www.codemascot.com/
 google_verify:    at9Eb_8UWPXn39jSyjV4IJwm6szkk6SIfJosUVX_xlo
 
 author:
