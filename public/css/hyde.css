@@ -196,8 +196,6 @@
  }
  ul.software-tools li:before {
      font-size: 1.5rem;
-     padding-right: 10px;
-     padding-left: 10px;
      color: #D9B08C;
      vertical-align: middle;
  }
@@ -208,7 +206,7 @@
  ul.software-tools li.ide:before {
     font-family: "Font Awesome\ 5 Free";
     content: "\f1c9";
-    padding-right: 15px;
+    padding-right: 3px;
  }
  ul.software-tools li.editor:before {
     font-family: "FontAwesome";
@@ -218,7 +216,7 @@
     font-family: "FontAwesome";
     content: "\f126";
     text-align: right;
-    padding-right: 20px;
+    padding-right: 7px;
  }
  ul.software-tools li.com:before {
     font-family: "Font Awesome\ 5 Free";
