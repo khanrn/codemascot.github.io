@@ -13,8 +13,6 @@
  */
 
 @import url(dracula.css);
-/* @import url(solarized-light.css); */
-@import url('https://fonts.googleapis.com/css?family=Lato');
  /*
   * Global resets
   *
@@ -22,7 +20,7 @@
   */
 
  html {
-     font-family: "Fira Mono", Helvetica, Arial, sans-serif;
+     font-family: "Inconsolata", Helvetica, Arial, sans-serif;
  }
  @media (min-width: 48em) {
      html {

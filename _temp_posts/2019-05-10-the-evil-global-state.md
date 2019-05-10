@@ -14,4 +14,4 @@ topics: CS Concepts
 7. Conclusion
 8. Referrences
 
-According to Wikipedia [global variable](https://en.wikipedia.org/wiki/Global_variable) is a variable with global scope, means this variable can be accessed or modified from any part of the 
+Data, the most basic concept of computer science and tweaking this data thing computer scince makes all the cool thing happen. As we are making these 
