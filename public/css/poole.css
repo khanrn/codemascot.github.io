@@ -76,6 +76,7 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
+  text-decoration: underline;
   color: #2E9CCA;
 }
 
@@ -333,6 +334,9 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #E27D60;
+}
+.post-title a:focus {
+  text-decoration: none;
 }
 .page-title,
 .post-title {
