@@ -13,6 +13,16 @@
  */
 
 @import url(dracula.css);
+@font-face {
+    font-family: 'CodeMascotWeb'; /*a name to be used later*/
+    font-style: normal;
+    src: url('../fonts/fonts/woff2/codemascot-semibold.woff2'); /*URL to font*/
+}
+@font-face {
+    font-family: 'CodeMascotWeb'; /*a name to be used later*/
+    font-style: italic;
+    src: url('../fonts/fonts/woff2/codemascot-semibolditalic.woff2'); /*URL to font*/
+}
  /*
   * Global resets
   *
@@ -20,7 +30,7 @@
   */
 
  html {
-     font-family: "Inconsolata", Helvetica, Arial, sans-serif;
+     font-family: "CodeMascotWeb", Helvetica, Arial, sans-serif;
  }
  @media (min-width: 48em) {
      html {
