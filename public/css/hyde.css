@@ -18,11 +18,7 @@
     font-style: normal;
     src: url('./fonts/woff/codemascot-medium.woff');
 }
-@font-face {
-    font-family: 'CodeMascotWeb'; /*a name to be used later*/
-    font-style: italic;
-    src: url('./fonts/woff/codemascot-mediumitalic.woff');
-}
+
  /*
   * Global resets
   *
@@ -59,7 +55,6 @@
      margin: 1rem 0;
      width: 100%;
      text-align: left;
-     font-weight: bold;
  }
  .lead span {
      display: block;
