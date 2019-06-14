@@ -17,13 +17,15 @@
     font-family: 'CodeMascotWeb'; /*a name to be used later*/
     font-style: normal;
     /*src: url('./fonts/woff2/codemascot-semibold.woff2'); /*URL to font*/
-    src: url('./fonts/woff2/codemascot-medium.woff'); /*URL to font*/
+    /*src: url('./fonts/woff2/codemascot-medium.woff'); /*URL to font*/
+    src: url('./fonts/woff2/codemascot-regular.woff'); /*URL to font*/
 }
 @font-face {
     font-family: 'CodeMascotWeb'; /*a name to be used later*/
     font-style: italic;
     /*src: url('./fonts/woff2/codemascot-semibolditalic.woff2'); /*URL to font*/
-    src: url('./fonts/woff2/codemascot-mediumitalic.woff'); /*URL to font*/
+    /*src: url('./fonts/woff2/codemascot-mediumitalic.woff'); /*URL to font*/
+    src: url('./fonts/woff2/codemascot-italic.woff'); /*URL to font*/
 }
  /*
   * Global resets
