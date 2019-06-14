@@ -200,7 +200,6 @@
  }
  ul.software-tools li span {
      color: #D9B08C;
-     font-weight: 700;
  }
  ul.software-tools li:before {
      font-size: 1.5rem;
@@ -342,7 +341,6 @@
  }
  a.sidebar-nav-item:hover,
  a.sidebar-nav-item:focus {
-     font-weight: 700;
      background: #2E9CCA;
      color: #ffff;
      text-decoration: none;
@@ -398,7 +396,6 @@
  a.read-more {
      display: block;
      padding: 5px 0;
-     font-weight: 700;
      text-transform: lowercase;
  }
  @media (min-width: 48em) {
