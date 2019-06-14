@@ -28,6 +28,10 @@
  html {
      font-family: "CodeMascotWeb", Helvetica, Arial, sans-serif;
  }
+ a:hover {
+   text-decoration: none;
+   color: #268bd2;
+ }
  @media (min-width: 48em) {
      html {
          font-size: 16px;
@@ -247,6 +251,9 @@
  }
  ul.contributions li a {
     color: #D9B08C;
+ }
+ ul.contributions li a:hover {
+    color: #268bd2;
  }
  @media (min-width: 48em) {
      .sidebar {
@@ -530,4 +537,3 @@
  .theme-base-0f .related-posts li a:hover {
      color: #8f5536;
  }
-
