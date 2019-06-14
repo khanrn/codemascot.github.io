@@ -16,12 +16,12 @@
 @font-face {
     font-family: 'CodeMascotWeb'; /*a name to be used later*/
     font-style: normal;
-    src: url('./fonts/woff2/codemascot-medium.woff');
+    src: url('./fonts/woff/codemascot-medium.woff');
 }
 @font-face {
     font-family: 'CodeMascotWeb'; /*a name to be used later*/
     font-style: italic;
-    src: url('./fonts/woff2/codemascot-mediumitalic.woff');
+    src: url('./fonts/woff/codemascot-mediumitalic.woff');
 }
  /*
   * Global resets
