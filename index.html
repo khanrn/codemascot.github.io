@@ -1,49 +1,64 @@
 ---
 layout: default
-title: My Blog
+title: About Me
 ---
 
-<div class="posts">
-  {% if paginator.posts == null %}
-    <h1 class="post-title">Posts are coming soon.</h1>
-  {% else %}
-    {% for post in paginator.posts %}
-    <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<div class="page">
+	<h1 class="page-title">Introduction</h1>
+	<p>This is Khan AKA <em>CodeMascot</em>, a self-taught reader, who loves to solve problems. Till now I've seen <span id="age-year"></span> springs and hoping to see many more.</p>
 
-	{% unless post.categories == empty %}
-	  <span class="categories">{{ post.categories | join: ", " }}</span>
-	{% endunless %}
-	
-	{% unless post.topics == empty %}
-	  <div class="topics"><span>{{ post.topics | split: " | " | join: "</span><span>" }}</span></div>
-	{% endunless %}
-	
-    {{ post.content | strip_html | truncatewords:30 }}
-    <a class="read-more" href="{{ post.url }}">Read more...</a>
-    </div>
-    {% endfor %}
-  {% endif %}
-</div>
+	<p>Voraciously reads <b>Philosophy</b>, <b>Non-Fiction</b> and <b>History</b>. Plus I've a keen interest in reading open source project's code regularly. It's fun to understand how other people are giving instructions to the dumb machine. BTW, I'm an <a target="_blank" href="https://www.gnu.org/software/emacs/"><b>Emacs</b></a> fan and it only closes for me when my PC gets a shutdown.</p>
+	<h1 class="page-title">Open Source Contributions</h1>
+	<ul class="contributions">
+		<li><a target="_blank" href="https://github.com/ethereum/solidity/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Acodemascot+">ethereum/solidity</a></li>
+		<li><a target="_blank" href="https://github.com/woocommerce/woocommerce/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Acodemascot+is%3Amerged+">WooCommerce</a></li>
+		<li><a target="_blank" href="https://github.com/laravel/framework/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Acodemascot+is%3Amerged+">Laravel</a></li>
+		<li><a target="_blank" href="http://git.php.net/?p=php-src.git&a=search&h=HEAD&st=author&s=naby88@gmail.com">PHP Interpreter</a></li>
+	</ul>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}blog/{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}blog/{{paginator.previous_page}}">{{paginator.page}}Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+	<h1 class="page-title">Profiles</h1>
+	<ul class="profiles">
+		<li class="stk-ex">
+			<a target="_blank" href="https://wordpress.stackexchange.com/users/44192/codemascot">StackExchange</a>
+		</li>
+		<li class="github">
+			<a target="_blank" href="https://github.com/codemascot">GitHub</a>
+		</li>
+		<li class="packagist">
+			<a target="_blank" href="https://packagist.org/packages/codemascot/">Packagist.org</a>
+		</li>
+		<li class="wp-org">
+			<a target="_blank" href="https://profiles.wordpress.org/codemascot#content-plugins">WordPress.org</a>
+		</li>
+		<li class="lnk-in">
+			<a target="_blank" href="https://www.linkedin.com/in/codemascot/">LinkedIn</a>
+		</li>
+		<li class="goodreads">
+			<a target="_blank" href="https://www.goodreads.com/CodeMascot">Goodreads</a>
+		</li>
+	</ul>
+
+	<h1 class="page-title">Project Management</h1>
+	<p class="pm-tools">
+		<span>JIRA</span>
+		<span>SLACK</span>
+		<span>TRELLO</span>
+		<span>ASANA</span>
+	</p>
+
+	<h1 class="page-title">Softwares & Tools</h1>
+	<ul class="software-tools">
+		<li class="os">
+			<span>CUSTOM LINUX DISTRO</span>
+		</li>
+		<li class="ide">
+			<span>EMACS</span> | <span>NEOVIM</span>
+		</li>
+		<li class="vcs">
+			<span>GIT</span> | <span>SVN</span>
+		</li>
+	</ul>
+
+	<h1 class="page-title">Contact</h1>
+	<p>You can shoot a mail at <b style="color: #D9B08D">codemascot (at) hotmail (dot) com</b>. Please mention your intention clearly in email subject and don't spam.</p>
 </div>
