@@ -137,26 +137,25 @@
  li.stk-ex:before {
      content: "\f18d";
      font-family: "Font Awesome\ 5 Brands";
-     padding-right: 10px;
+     padding-right: 1px;
  }
  li.github:before {
      content: "\f113";
      font-family: "Font Awesome\ 5 Brands";
-     padding-right: 10px;
+     padding-right: 1px;
  }
  li.packagist:before {
      content: "\f16b";
      font-family: "Font Awesome\ 5 Brands";
-     padding-right: 9px;
  }
  li.wp-org:before {
      content: "\f19a";
      font-family: "Font Awesome\ 5 Brands";
-     padding-right: 10px;
+     padding-right: 1px;
  }
  li.goodreads:before {
     font-family: "Font Awesome\ 5 Brands";
-    padding-right: 10px;
+    padding-right: 1px;
     content: "\f3a8";
  }
  li.lnk-in:before {
