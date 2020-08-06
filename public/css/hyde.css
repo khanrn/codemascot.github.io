@@ -248,6 +248,10 @@
     padding: 5px 0;
     color:#D9B08C;
  }
+ ul.contributions li span {
+     display: block;
+     color:#DAD7D7;
+ }
  ul.contributions li a {
     color: #D9B08C;
  }
